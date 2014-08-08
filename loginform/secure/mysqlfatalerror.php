@@ -7,7 +7,7 @@ function mysql_fatal_error ($error_msg)
 	<p> $error_msg: $msgerrormain</p>
 	Please click the back button and try again.If you are still having problems
 	<a href="mailto:anthonysaldana@leafyweb.com">email our administrator. </a>
-	</br>thank you.
+	</br>thank you. </br>
 _END;
 }
 ?>

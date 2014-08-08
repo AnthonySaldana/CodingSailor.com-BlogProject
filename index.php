@@ -1,3 +1,3 @@
 <?php
-include_once("loginform.php");
+include_once("loginform/loginform.php");
 ?>
