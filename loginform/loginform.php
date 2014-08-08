@@ -32,8 +32,12 @@ $htmllogin = <<<_codinghtml
 _codinghtml;
 
 echo $htmllogin; //displays the login form
+<<<<<<< HEAD:loginform/loginform.php
 
 //include_once("logintablequery.php");
 mysql_close($db_server);
 	
 ?>
+=======
+?>
+>>>>>>> origin/master:loginform.php
