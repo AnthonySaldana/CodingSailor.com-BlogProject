@@ -12,10 +12,10 @@ echo<<<_sqltesthtml
 		</td>
 		<td>
 		<select name="category">
-		<option name="tech" value="Tech">Tech</option>
-		<option name="web" value="Web">Web</option>
-		<option name="life" value="Life">Life</option>
-		<option name="selfdev" value="SelfDev">Self Development</option>
+		<option name="tech" value="1">Tech</option>
+		<option name="web" value="2">Web</option>
+		<option name="life" value="3">Life</option>
+		<option name="selfdev" value="4">Self Development</option>
 		</td>
 	</tr>
 	
@@ -66,18 +66,24 @@ for($j=0; $j < $rows; ++$j)
 {
 	$row = mysql_fetch_row($result);
 	echo<<<_blogpostquery
-	<pre>
+	<pre >
 		Category: $row[0]
 		title...: $row[1]
-		Content.: $row[2]
+		<span style= "max-width:500px;white-space:normal;">Content.: $row[2]</span>
 		ID......: $row[3]
 		Date....: $row[4]</pre>
 	<!--excuse my half-fast presentation here. -->
-	<form action="sqltest.php" method="POST">
-		<input type="hidden" name="delete" value="yes"/>
+	<form action="sqltest.php" method="POST" style = "display:inline-block; vertical-align:top;">
+		<input type="hidden" name="delete" value="yes" "/>
 		<input type="hidden" name="id" value="$row[3]"/>
-<pre>		<input type="submit" name=delete" value="DELETE"/>
-	</form></pre>
+	<input type="submit" name="delete" value="DELETE"/>
+	</form>
+	<form action="sqledit.php" method="POST" style = "display:inline-block; vertical-align:top;">
+	<input type = "hidden" name ="id" value = "$row[3]"/>
+	<input type = "hidden" name = "content" value = "$row[2]"/>
+	<input type = "submit" name="edit" value="EDIT"/>
+	</form>
+
 _blogpostquery;
 }
 

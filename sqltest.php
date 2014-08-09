@@ -28,16 +28,11 @@ if(isset($_POST['category']) && !empty($_POST['category'])
 && isset($_POST['content']) && !empty($_POST['content']))
 {
 	$category = get_post('category');
-		switch($category){
-		case "tech": $category = 1;
-		case "web": $category = 2;
-		case "life": $category =3;
-		case "selfdev": $category = 4;
-		}
 	$title = get_post('title');
 	$content = get_post('content');
+	$currentdate = date('y/m/d');
 	
-	$query = "INSERT INTO blogpost(categoryid,title,content) values ('$category', '$title', '$content')";
+	$query = "INSERT INTO blogpost(categoryid,title,content,dateofpost) values ('$category', '$title', '$content', '$currentdate')";
 	if(!mysql_query($query,$db_server))
 	{
 		echo "INSERT failed: $query </br>" . mysql_error() . "</br> </br>";
