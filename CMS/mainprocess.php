@@ -1,5 +1,10 @@
 <?php
-
+session_start();
+if(isset($_SESSION['username']))
+	{
+				$username = $_SESSION['username'];
+				$password = $_SESSION['password'];
+				$email = $_SESSION['email'];
 require_once("../get_post.php");
 require_once("../loginform/secure/logindb.php");
 
@@ -40,4 +45,7 @@ if(isset($_POST['category']) && !empty($_POST['category'])
 }
 mysql_close($db_server);
 header("Location: http://codingsailor.com/CMS/cmsform.php");
+}
+
+else die("only admin allowed");
 ?>

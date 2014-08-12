@@ -1,4 +1,10 @@
 <?php
+session_start();
+if(isset($_SESSION['username']))
+	{
+				$username = $_SESSION['username'];
+				$password = $_SESSION['password'];
+				$email = $_SESSION['email'];
 require_once("../get_post.php");
 require_once("../loginform/secure/logindb.php");
 $db_server = mysql_connect($db_hostname, $db_username, $db_password);
@@ -11,4 +17,7 @@ $content = get_post('editcontent');
 $query = "UPDATE blogpost set content = '$content' WHERE id='$id'";
 if(!mysql_query($query)) die("problem processing query");
 else header("Location: http://codingsailor.com/CMS/cmsform.php");
+}
+
+else die("only admin allowed");
 ?>

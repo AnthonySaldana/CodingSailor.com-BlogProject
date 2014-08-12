@@ -1,8 +1,18 @@
 <?php
-echo"Coding Sailor is currently under construction.";
-//HTML code for the login form
-$htmllogin = <<<_codinghtml
 
+//HTML code for the login form
+session_start();
+
+if(isset($_SESSION['username']))
+	{
+		$username = $_SESSION['username'];
+		$password = $_SESSION['password'];
+		$email = $_SESSION['email'];
+		echo "<p> Hello $username.</p>";
+		echo "<a href='../loginform/logout.php'>Logout</a>";
+	}
+else {
+$htmllogin = <<<_codinghtml
 <DOCTYPE html5>
 <head>
 	<link rel="stylesheet" type="text/css" href="../styles/login.css"> 
@@ -29,4 +39,7 @@ $htmllogin = <<<_codinghtml
 _codinghtml;
 
 echo $htmllogin; //displays the login form
+}
+
+//echo"Coding Sailor is currently under construction.";
 ?>
