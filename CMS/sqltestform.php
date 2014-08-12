@@ -1,5 +1,5 @@
 <?php
-require_once("loginform/secure/logindb.php");
+require_once("../loginform/secure/logindb.php");
 
 echo<<<_sqltesthtml
 <form action="sqltest.php" method="post">

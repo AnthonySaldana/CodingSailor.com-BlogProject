@@ -1,7 +1,7 @@
 <?php
 
-include_once("get_post.php");
-require_once("loginform/secure/logindb.php");
+require_once("../get_post.php");
+require_once("../loginform/secure/logindb.php");
 
 $db_server = mysql_connect($db_hostname, $db_username, $db_password);
 if (!$db_server) die("couldn't connect: " . mysql_error());
@@ -39,5 +39,5 @@ if(isset($_POST['category']) && !empty($_POST['category'])
 	}
 }
 mysql_close($db_server);
-header("Location: http://codingsailor.com/sqltestform.php");
+header("Location: http://codingsailor.com/CMS/sqltestform.php");
 ?>

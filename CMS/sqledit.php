@@ -1,7 +1,7 @@
 <?php
-
-$id = $_POST['id'];
-$content = $_POST['content'];
+require_once("../get_post.php");
+$id = get_post('id');
+$content = get_post('content');
 echo<<<_htmleditsql
 <form action="sqleditfinish.php" method = "POST">
 <textarea name="editcontent"cols="75" rows="10"> $content </textarea>
