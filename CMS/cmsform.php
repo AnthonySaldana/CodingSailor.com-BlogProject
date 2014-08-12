@@ -2,7 +2,7 @@
 require_once("../loginform/secure/logindb.php");
 
 echo<<<_sqltesthtml
-<form action="sqltest.php" method="post">
+<form action="mainprocess.php" method="post">
 <table width = "500px">
 <tbody>
 	<tr>
@@ -73,12 +73,12 @@ for($j=0; $j < $rows; ++$j)
 		ID......: $row[3]
 		Date....: $row[4]</pre>
 	<!--excuse my half-fast presentation here. -->
-	<form action="sqltest.php" method="POST" style = "display:inline-block; vertical-align:top;">
+	<form action="mainprocess.php" method="POST" style = "display:inline-block; vertical-align:top;">
 		<input type="hidden" name="delete" value="yes" "/>
 		<input type="hidden" name="id" value="$row[3]"/>
 	<input type="submit" name="delete" value="DELETE"/>
 	</form>
-	<form action="sqledit.php" method="POST" style = "display:inline-block; vertical-align:top;">
+	<form action="editpost.php" method="POST" style = "display:inline-block; vertical-align:top;">
 	<input type = "hidden" name ="id" value = "$row[3]"/>
 	<input type = "hidden" name = "content" value = "$row[2]"/>
 	<input type = "submit" name="edit" value="EDIT"/>

@@ -39,5 +39,5 @@ if(isset($_POST['category']) && !empty($_POST['category'])
 	}
 }
 mysql_close($db_server);
-header("Location: http://codingsailor.com/CMS/sqltestform.php");
+header("Location: http://codingsailor.com/CMS/cmsform.php");
 ?>

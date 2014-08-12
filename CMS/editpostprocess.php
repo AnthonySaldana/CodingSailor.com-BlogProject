@@ -10,5 +10,5 @@ $id = get_post('id');
 $content = get_post('editcontent');
 $query = "UPDATE blogpost set content = '$content' WHERE id='$id'";
 if(!mysql_query($query)) die("problem processing query");
-else header("Location: http://codingsailor.com/CMS/sqltestform.php");
+else header("Location: http://codingsailor.com/CMS/cmsform.php");
 ?>
