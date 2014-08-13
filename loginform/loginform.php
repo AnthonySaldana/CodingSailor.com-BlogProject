@@ -2,7 +2,7 @@
 
 //HTML code for the login form
 session_start();
-
+//start session
 if(isset($_SESSION['username']))
 	{
 		$username = $_SESSION['username'];
@@ -13,18 +13,18 @@ if(isset($_SESSION['username']))
 	}
 else {
 $htmllogin = <<<_codinghtml
-<DOCTYPE html5>
+<html>
 <head>
-	<link rel="stylesheet" type="text/css" href="../styles/login.css"> 
+	<link rel="stylesheet" type="text/css" href="../loginform/styles/login.css"> 
 	<script type="text/javascript" src="../loginform/js/registerscript.js"></script>
 </head>
 <body onload="hidethese()">
+	<button onclick="loadform()" id="loadbutton" type=button >login/signup</br></button>
 	
-	<form name="login" action="loginform/processlogin.php" method="POST" id="login"/>
+	<form  id="login" name="login" action="loginform/processlogin.php" method="POST" />
+		<a href="#" onclick="hidethese()">X</a></br>
 		Username: <input type="text" name="username"/>
-		</br>
 		Password: <input type="password" name="pwd"/>
-		</br>
 		<label for="email" id="emaillabel">Email:</label>
 		<input type="text" name="email" id="emailsec"/>
 		<input type="submit" name="signin" value="Sign In" id="signinbutton"/>
@@ -32,8 +32,7 @@ $htmllogin = <<<_codinghtml
 		<button onclick="register()" id="registerbutton" type=button >Sign Up</button>
 	</form>
 	
-	
-	
+	</br>
 </body>
 </html>
 _codinghtml;
@@ -41,5 +40,5 @@ _codinghtml;
 echo $htmllogin; //displays the login form
 }
 
-//echo"Coding Sailor is currently under construction.";
+echo"Coding Sailor is currently under construction.";
 ?>

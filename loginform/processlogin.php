@@ -31,7 +31,7 @@ if(isset($_POST['username']) && isset($_POST['pwd']) && !empty($_POST['username'
 		VALUES('$user', '$token', '$email')";
 		$result = mysql_query($signupquery);
 		if(!result) die("error signing up");
-		echo "signed up";
+		//echo "signed up";
 	}
 	
 	//Here we check if the username/password combo exists and if not, send em packing!

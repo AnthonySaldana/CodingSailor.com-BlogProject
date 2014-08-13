@@ -16,7 +16,7 @@ echo<<<_htmleditsql
 <input type="hidden" name="id" value="$id"/>
 <input type="submit" name="submitedit" value="Submit Edit"/>
 </form>
-_htmleditsql
+_htmleditsql;
 }
 
 else die("only admin allowed");
