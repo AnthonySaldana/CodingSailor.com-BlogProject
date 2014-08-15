@@ -1,0 +1,311 @@
+[04-Aug-2014 02:34:02 America/Chicago] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/sailor03/public_html/index.php on line 2
+[07-Aug-2014 01:13:17 America/Chicago] PHP Warning:  require_once(../secure/logindb.php): failed to open stream: No such file or directory in /home/sailor03/public_html/index.php on line 2
+[07-Aug-2014 01:13:17 America/Chicago] PHP Fatal error:  require_once(): Failed opening required '../secure/logindb.php' (include_path='.:/opt/php54/lib/php') in /home/sailor03/public_html/index.php on line 2
+[07-Aug-2014 01:17:08 America/Chicago] PHP Parse error:  syntax error, unexpected 'die' (T_EXIT) in /home/sailor03/public_html/index.php on line 5
+[07-Aug-2014 01:19:52 America/Chicago] PHP Parse error:  syntax error, unexpected 'die' (T_EXIT) in /home/sailor03/public_html/index.php on line 5
+[07-Aug-2014 01:27:41 America/Chicago] PHP Warning:  mysql_connect(): Access denied for user 'sailor03_arbie'@'localhost' (using password: YES) in /home/sailor03/public_html/index.php on line 3
+[07-Aug-2014 01:28:05 America/Chicago] PHP Warning:  mysql_connect(): Access denied for user 'sailor03_arb'@'localhost' (using password: YES) in /home/sailor03/public_html/index.php on line 3
+[07-Aug-2014 01:29:00 America/Chicago] PHP Warning:  mysql_connect(): Access denied for user 'sailor03_arbie'@'localhost' (using password: YES) in /home/sailor03/public_html/index.php on line 3
+[07-Aug-2014 01:29:56 America/Chicago] PHP Warning:  mysql_connect(): Access denied for user 'sailor03_arbie'@'localhost' (using password: YES) in /home/sailor03/public_html/index.php on line 3
+[07-Aug-2014 01:30:15 America/Chicago] PHP Warning:  mysql_connect(): Access denied for user 'sailor03_arbie'@'localhost' (using password: YES) in /home/sailor03/public_html/index.php on line 3
+[07-Aug-2014 01:58:46 America/Chicago] PHP Warning:  mysql_connect(): Access denied for user 'sailor03_arbie'@'localhost' (using password: YES) in /home/sailor03/public_html/loginform.php on line 4
+[07-Aug-2014 16:43:12 America/Chicago] PHP Warning:  mysql_connect(): Unknown MySQL server host 'SELECT * FROM user' (0) in /home/sailor03/public_html/loginform.php on line 37
+[07-Aug-2014 16:44:27 America/Chicago] PHP Warning:  mysql_connect(): Unknown MySQL server host 'SELECT * FROM user' (0) in /home/sailor03/public_html/loginform.php on line 37
+[07-Aug-2014 16:44:38 America/Chicago] PHP Warning:  mysql_connect(): Unknown MySQL server host 'SELECT * FROM user' (0) in /home/sailor03/public_html/loginform.php on line 37
+[07-Aug-2014 16:45:06 America/Chicago] PHP Warning:  mysql_connect(): Unknown MySQL server host 'SELECT * FROM user' (0) in /home/sailor03/public_html/loginform.php on line 37
+[07-Aug-2014 16:48:39 America/Chicago] PHP Warning:  Missing argument 1 for mysql_fatal_error(), called in /home/sailor03/public_html/loginform.php on line 38 and defined in /home/sailor03/public_html/secure/mysqlfatalerror.php on line 2
+[07-Aug-2014 16:50:11 America/Chicago] PHP Parse error:  syntax error, unexpected ';' in /home/sailor03/public_html/loginform.php on line 38
+[07-Aug-2014 17:00:50 America/Chicago] PHP Warning:  require_once(secure/logindb.php): failed to open stream: No such file or directory in /home/sailor03/public_html/loginform.php on line 2
+[07-Aug-2014 17:00:51 America/Chicago] PHP Fatal error:  require_once(): Failed opening required 'secure/logindb.php' (include_path='.:/opt/php54/lib/php') in /home/sailor03/public_html/loginform.php on line 2
+[07-Aug-2014 17:11:48 America/Chicago] PHP Parse error:  syntax error, unexpected '<' in /home/sailor03/public_html/loginform/logintablequery.php on line 16
+[07-Aug-2014 17:36:25 America/Chicago] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sailor03/public_html/loginform/logintablequery.php on line 14
+[07-Aug-2014 17:48:32 America/Chicago] PHP Warning:  require_once(loginform/secure/logindb): failed to open stream: No such file or directory in /home/sailor03/public_html/sqltest.php on line 2
+[07-Aug-2014 17:48:32 America/Chicago] PHP Fatal error:  require_once(): Failed opening required 'loginform/secure/logindb' (include_path='.:/opt/php54/lib/php') in /home/sailor03/public_html/sqltest.php on line 2
+[08-Aug-2014 00:33:17 America/Chicago] PHP Parse error:  syntax error, unexpected ''' (T_ENCAPSED_AND_WHITESPACE), expecting ']' in /home/sailor03/public_html/sqltest.php on line 10
+[08-Aug-2014 00:56:09 America/Chicago] PHP Parse error:  syntax error, unexpected 'establish' (T_STRING) in /home/sailor03/public_html/sqltestform.php on line 54
+[08-Aug-2014 00:56:50 America/Chicago] PHP Parse error:  syntax error, unexpected end of file in /home/sailor03/public_html/sqltestform.php on line 71
+[08-Aug-2014 00:57:12 America/Chicago] PHP Parse error:  syntax error, unexpected end of file in /home/sailor03/public_html/sqltestform.php on line 72
+[08-Aug-2014 00:57:47 America/Chicago] PHP Warning:  mysql_query(): Access denied for user 'sailor03'@'localhost' (using password: NO) in /home/sailor03/public_html/sqltestform.php on line 52
+[08-Aug-2014 00:57:47 America/Chicago] PHP Warning:  mysql_query(): A link to the server could not be established in /home/sailor03/public_html/sqltestform.php on line 52
+[08-Aug-2014 00:58:36 America/Chicago] PHP Warning:  require_once(loginform/secure/logindb): failed to open stream: No such file or directory in /home/sailor03/public_html/sqltestform.php on line 2
+[08-Aug-2014 00:58:36 America/Chicago] PHP Fatal error:  require_once(): Failed opening required 'loginform/secure/logindb' (include_path='.:/opt/php54/lib/php') in /home/sailor03/public_html/sqltestform.php on line 2
+[08-Aug-2014 00:59:00 America/Chicago] PHP Warning:  mysql_query(): Access denied for user 'sailor03'@'localhost' (using password: NO) in /home/sailor03/public_html/sqltestform.php on line 53
+[08-Aug-2014 00:59:00 America/Chicago] PHP Warning:  mysql_query(): A link to the server could not be established in /home/sailor03/public_html/sqltestform.php on line 53
+[08-Aug-2014 01:27:42 America/Chicago] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/sailor03/public_html/sqltest.php on line 13
+[08-Aug-2014 01:27:58 America/Chicago] PHP Warning:  include_once(get_post.php): failed to open stream: No such file or directory in /home/sailor03/public_html/sqltest.php on line 3
+[08-Aug-2014 01:27:58 America/Chicago] PHP Warning:  include_once(): Failed opening 'get_post.php' for inclusion (include_path='.:/opt/php54/lib/php') in /home/sailor03/public_html/sqltest.php on line 3
+[08-Aug-2014 01:27:58 America/Chicago] PHP Fatal error:  Function name must be a string in /home/sailor03/public_html/sqltest.php on line 7
+[08-Aug-2014 01:28:28 America/Chicago] PHP Fatal error:  Function name must be a string in /home/sailor03/public_html/sqltest.php on line 7
+[08-Aug-2014 01:29:21 America/Chicago] PHP Fatal error:  Function name must be a string in /home/sailor03/public_html/sqltest.php on line 7
+[08-Aug-2014 01:29:26 America/Chicago] PHP Fatal error:  Function name must be a string in /home/sailor03/public_html/sqltest.php on line 7
+[08-Aug-2014 01:31:36 America/Chicago] PHP Fatal error:  Function name must be a string in /home/sailor03/public_html/sqltest.php on line 7
+[08-Aug-2014 01:35:50 America/Chicago] PHP Warning:  mysql_query() expects parameter 2 to be resource, null given in /home/sailor03/public_html/sqltest.php on line 10
+[08-Aug-2014 01:35:50 America/Chicago] PHP Warning:  mysql_close() expects parameter 1 to be resource, null given in /home/sailor03/public_html/sqltest.php on line 16
+[08-Aug-2014 01:36:27 America/Chicago] PHP Warning:  mysql_connect(): Access denied for user 'sailor03'@'localhost' (using password: NO) in /home/sailor03/public_html/sqltest.php on line 5
+[08-Aug-2014 01:37:05 America/Chicago] PHP Warning:  mysql_connect(): Access denied for user 'sailor03'@'localhost' (using password: NO) in /home/sailor03/public_html/sqltest.php on line 5
+[08-Aug-2014 01:57:30 America/Chicago] PHP Parse error:  syntax error, unexpected '$_POST' (T_VARIABLE), expecting '(' in /home/sailor03/public_html/sqltest.php on line 26
+[08-Aug-2014 01:58:09 America/Chicago] PHP Warning:  mysql_real_escape_string(): Access denied for user 'sailor03'@'localhost' (using password: NO) in /home/sailor03/public_html/get_post.php on line 4
+[08-Aug-2014 01:58:09 America/Chicago] PHP Warning:  mysql_real_escape_string(): A link to the server could not be established in /home/sailor03/public_html/get_post.php on line 4
+[08-Aug-2014 01:58:09 America/Chicago] PHP Warning:  mysql_real_escape_string(): Access denied for user 'sailor03'@'localhost' (using password: NO) in /home/sailor03/public_html/get_post.php on line 4
+[08-Aug-2014 01:58:09 America/Chicago] PHP Warning:  mysql_real_escape_string(): A link to the server could not be established in /home/sailor03/public_html/get_post.php on line 4
+[08-Aug-2014 01:58:09 America/Chicago] PHP Warning:  mysql_real_escape_string(): Access denied for user 'sailor03'@'localhost' (using password: NO) in /home/sailor03/public_html/get_post.php on line 4
+[08-Aug-2014 01:58:09 America/Chicago] PHP Warning:  mysql_real_escape_string(): A link to the server could not be established in /home/sailor03/public_html/get_post.php on line 4
+[08-Aug-2014 02:02:19 America/Chicago] PHP Warning:  mysql_real_escape_string(): Access denied for user 'sailor03'@'localhost' (using password: NO) in /home/sailor03/public_html/get_post.php on line 10
+[08-Aug-2014 02:02:19 America/Chicago] PHP Warning:  mysql_real_escape_string(): A link to the server could not be established in /home/sailor03/public_html/get_post.php on line 10
+[08-Aug-2014 02:02:19 America/Chicago] PHP Warning:  mysql_real_escape_string(): Access denied for user 'sailor03'@'localhost' (using password: NO) in /home/sailor03/public_html/get_post.php on line 10
+[08-Aug-2014 02:02:19 America/Chicago] PHP Warning:  mysql_real_escape_string(): A link to the server could not be established in /home/sailor03/public_html/get_post.php on line 10
+[08-Aug-2014 02:02:19 America/Chicago] PHP Warning:  mysql_real_escape_string(): Access denied for user 'sailor03'@'localhost' (using password: NO) in /home/sailor03/public_html/get_post.php on line 10
+[08-Aug-2014 02:02:19 America/Chicago] PHP Warning:  mysql_real_escape_string(): A link to the server could not be established in /home/sailor03/public_html/get_post.php on line 10
+[08-Aug-2014 02:03:26 America/Chicago] PHP Warning:  mysql_real_escape_string(): Access denied for user 'sailor03'@'localhost' (using password: NO) in /home/sailor03/public_html/get_post.php on line 10
+[08-Aug-2014 02:03:26 America/Chicago] PHP Warning:  mysql_real_escape_string(): A link to the server could not be established in /home/sailor03/public_html/get_post.php on line 10
+[08-Aug-2014 02:03:26 America/Chicago] PHP Warning:  mysql_real_escape_string(): Access denied for user 'sailor03'@'localhost' (using password: NO) in /home/sailor03/public_html/get_post.php on line 10
+[08-Aug-2014 02:03:26 America/Chicago] PHP Warning:  mysql_real_escape_string(): A link to the server could not be established in /home/sailor03/public_html/get_post.php on line 10
+[08-Aug-2014 02:03:26 America/Chicago] PHP Warning:  mysql_real_escape_string(): Access denied for user 'sailor03'@'localhost' (using password: NO) in /home/sailor03/public_html/get_post.php on line 10
+[08-Aug-2014 02:03:26 America/Chicago] PHP Warning:  mysql_real_escape_string(): A link to the server could not be established in /home/sailor03/public_html/get_post.php on line 10
+[08-Aug-2014 02:03:30 America/Chicago] PHP Warning:  mysql_real_escape_string(): Access denied for user 'sailor03'@'localhost' (using password: NO) in /home/sailor03/public_html/get_post.php on line 10
+[08-Aug-2014 02:03:30 America/Chicago] PHP Warning:  mysql_real_escape_string(): A link to the server could not be established in /home/sailor03/public_html/get_post.php on line 10
+[08-Aug-2014 02:03:30 America/Chicago] PHP Warning:  mysql_real_escape_string(): Access denied for user 'sailor03'@'localhost' (using password: NO) in /home/sailor03/public_html/get_post.php on line 10
+[08-Aug-2014 02:03:30 America/Chicago] PHP Warning:  mysql_real_escape_string(): A link to the server could not be established in /home/sailor03/public_html/get_post.php on line 10
+[08-Aug-2014 02:03:30 America/Chicago] PHP Warning:  mysql_real_escape_string(): Access denied for user 'sailor03'@'localhost' (using password: NO) in /home/sailor03/public_html/get_post.php on line 10
+[08-Aug-2014 02:03:30 America/Chicago] PHP Warning:  mysql_real_escape_string(): A link to the server could not be established in /home/sailor03/public_html/get_post.php on line 10
+[08-Aug-2014 02:06:08 America/Chicago] PHP Warning:  mysql_connect(): Access denied for user 'sailor03'@'localhost' (using password: NO) in /home/sailor03/public_html/get_post.php on line 6
+[08-Aug-2014 02:08:17 America/Chicago] PHP Warning:  mysql_connect(): Access denied for user 'sailor03'@'localhost' (using password: NO) in /home/sailor03/public_html/get_post.php on line 6
+[08-Aug-2014 02:08:45 America/Chicago] PHP Warning:  mysql_connect(): Access denied for user 'sailor03'@'localhost' (using password: NO) in /home/sailor03/public_html/get_post.php on line 6
+[08-Aug-2014 02:09:04 America/Chicago] PHP Warning:  mysql_connect(): Access denied for user 'sailor03'@'localhost' (using password: NO) in /home/sailor03/public_html/get_post.php on line 6
+[08-Aug-2014 02:10:25 America/Chicago] PHP Warning:  mysql_real_escape_string(): Access denied for user 'sailor03'@'localhost' (using password: NO) in /home/sailor03/public_html/get_post.php on line 11
+[08-Aug-2014 02:10:25 America/Chicago] PHP Warning:  mysql_real_escape_string(): A link to the server could not be established in /home/sailor03/public_html/get_post.php on line 11
+[08-Aug-2014 02:10:25 America/Chicago] PHP Warning:  mysql_real_escape_string(): Access denied for user 'sailor03'@'localhost' (using password: NO) in /home/sailor03/public_html/get_post.php on line 11
+[08-Aug-2014 02:10:25 America/Chicago] PHP Warning:  mysql_real_escape_string(): A link to the server could not be established in /home/sailor03/public_html/get_post.php on line 11
+[08-Aug-2014 02:10:25 America/Chicago] PHP Warning:  mysql_real_escape_string(): Access denied for user 'sailor03'@'localhost' (using password: NO) in /home/sailor03/public_html/get_post.php on line 11
+[08-Aug-2014 02:10:25 America/Chicago] PHP Warning:  mysql_real_escape_string(): A link to the server could not be established in /home/sailor03/public_html/get_post.php on line 11
+[08-Aug-2014 02:11:11 America/Chicago] PHP Warning:  mysql_connect(): Access denied for user 'sailor03'@'localhost' (using password: NO) in /home/sailor03/public_html/get_post.php on line 6
+[08-Aug-2014 02:12:21 America/Chicago] PHP Warning:  mysql_connect(): Access denied for user 'sailor03'@'localhost' (using password: NO) in /home/sailor03/public_html/get_post.php on line 6
+[08-Aug-2014 02:28:13 America/Chicago] PHP Parse error:  syntax error, unexpected '&&' (T_BOOLEAN_AND) in /home/sailor03/public_html/sqltest.php on line 28
+[08-Aug-2014 19:43:42 America/Chicago] PHP Warning:  mysql_real_escape_string(): Access denied for user 'sailor03'@'localhost' (using password: NO) in /home/sailor03/public_html/get_post.php on line 6
+[08-Aug-2014 19:43:42 America/Chicago] PHP Warning:  mysql_real_escape_string(): A link to the server could not be established in /home/sailor03/public_html/get_post.php on line 6
+[08-Aug-2014 19:43:42 America/Chicago] PHP Warning:  mysql_real_escape_string(): Access denied for user 'sailor03'@'localhost' (using password: NO) in /home/sailor03/public_html/get_post.php on line 6
+[08-Aug-2014 19:43:42 America/Chicago] PHP Warning:  mysql_real_escape_string(): A link to the server could not be established in /home/sailor03/public_html/get_post.php on line 6
+[08-Aug-2014 19:43:42 America/Chicago] PHP Warning:  mysql_query(): Access denied for user 'sailor03'@'localhost' (using password: NO) in /home/sailor03/public_html/sqleditfinish.php on line 6
+[08-Aug-2014 19:43:42 America/Chicago] PHP Warning:  mysql_query(): A link to the server could not be established in /home/sailor03/public_html/sqleditfinish.php on line 6
+[08-Aug-2014 19:46:50 America/Chicago] PHP Parse error:  syntax error, unexpected '$id' (T_VARIABLE) in /home/sailor03/public_html/sqleditfinish.php on line 8
+[12-Aug-2014 15:36:42 America/Chicago] PHP Warning:  require_once(../loginform/logincheck.php): failed to open stream: No such file or directory in /home/sailor03/public_html/loginform/loginform.php on line 5
+[12-Aug-2014 15:36:42 America/Chicago] PHP Fatal error:  require_once(): Failed opening required '../loginform/logincheck.php' (include_path='.:/opt/php54/lib/php') in /home/sailor03/public_html/loginform/loginform.php on line 5
+[12-Aug-2014 15:38:43 America/Chicago] PHP Warning:  require_once(../loginform/logincheck.php): failed to open stream: No such file or directory in /home/sailor03/public_html/loginform/loginform.php on line 5
+[12-Aug-2014 15:38:43 America/Chicago] PHP Fatal error:  require_once(): Failed opening required '../loginform/logincheck.php' (include_path='.:/opt/php54/lib/php') in /home/sailor03/public_html/loginform/loginform.php on line 5
+[12-Aug-2014 15:39:03 America/Chicago] PHP Warning:  require_once(../loginform/logincheck.php): failed to open stream: No such file or directory in /home/sailor03/public_html/loginform/loginform.php on line 5
+[12-Aug-2014 15:39:03 America/Chicago] PHP Fatal error:  require_once(): Failed opening required '../loginform/logincheck.php' (include_path='.:/opt/php54/lib/php') in /home/sailor03/public_html/loginform/loginform.php on line 5
+[12-Aug-2014 15:39:04 America/Chicago] PHP Warning:  require_once(../loginform/logincheck.php): failed to open stream: No such file or directory in /home/sailor03/public_html/loginform/loginform.php on line 5
+[12-Aug-2014 15:39:04 America/Chicago] PHP Fatal error:  require_once(): Failed opening required '../loginform/logincheck.php' (include_path='.:/opt/php54/lib/php') in /home/sailor03/public_html/loginform/loginform.php on line 5
+[12-Aug-2014 15:43:21 America/Chicago] PHP Parse error:  syntax error, unexpected end of file in /home/sailor03/public_html/loginform/logincheck.php on line 10
+[12-Aug-2014 15:45:00 America/Chicago] PHP Parse error:  syntax error, unexpected '}' in /home/sailor03/public_html/loginform/loginform.php on line 33
+[12-Aug-2014 15:49:57 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/sailor03/public_html/loginform/loginform.php:2) in /home/sailor03/public_html/loginform/loginform.php on line 4
+[12-Aug-2014 16:08:15 America/Chicago] PHP Parse error:  syntax error, unexpected '<' in /home/sailor03/public_html/loginform/loginform.php on line 12
+[12-Aug-2014 16:08:34 America/Chicago] PHP Parse error:  syntax error, unexpected '.' in /home/sailor03/public_html/loginform/loginform.php on line 12
+[12-Aug-2014 18:02:26 America/Chicago] PHP Parse error:  syntax error, unexpected '<' in /home/sailor03/public_html/index.php on line 3
+[12-Aug-2014 18:02:52 America/Chicago] PHP Parse error:  syntax error, unexpected 'apple' (T_STRING), expecting ',' or ';' in /home/sailor03/public_html/index.php on line 3
+[12-Aug-2014 18:03:11 America/Chicago] PHP Parse error:  syntax error, unexpected '>' in /home/sailor03/public_html/index.php on line 3
+[12-Aug-2014 18:24:37 America/Chicago] PHP Parse error:  syntax error, unexpected '<<' (T_SL) in /home/sailor03/public_html/index.php on line 5
+[12-Aug-2014 18:45:53 America/Chicago] PHP Parse error:  syntax error, unexpected '}' in /home/sailor03/public_html/loginform/loginform.php on line 42
+[12-Aug-2014 18:46:36 America/Chicago] PHP Parse error:  syntax error, unexpected '/' in /home/sailor03/public_html/loginform/loginform.php on line 4
+[13-Aug-2014 04:22:34 UTC] PHP Warning:  PHP Startup: magickwand: Unable to initialize module
+Module compiled with module API=20060613
+PHP    compiled with module API=20100525
+These options need to match
+ in Unknown on line 0
+[13-Aug-2014 04:22:34 UTC] PHP Warning:  PHP Startup: imagick: Unable to initialize module
+Module compiled with module API=20060613
+PHP    compiled with module API=20100525
+These options need to match
+ in Unknown on line 0
+[13-Aug-2014 04:22:34 UTC] PHP Warning:  PHP Startup: PDO: Unable to initialize module
+Module compiled with module API=20060613
+PHP    compiled with module API=20100525
+These options need to match
+ in Unknown on line 0
+[13-Aug-2014 04:22:34 UTC] PHP Warning:  PHP Startup: pdo_sqlite: Unable to initialize module
+Module compiled with module API=20060613
+PHP    compiled with module API=20100525
+These options need to match
+ in Unknown on line 0
+[13-Aug-2014 04:22:34 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/local/lib/php/extensions/no-debug-non-zts-20060613/sqlite.so' - /usr/local/lib/php/extensions/no-debug-non-zts-20060613/sqlite.so: undefined symbol: third_arg_force_ref in Unknown on line 0
+[13-Aug-2014 04:22:34 UTC] PHP Warning:  PHP Startup: pdo_mysql: Unable to initialize module
+Module compiled with module API=20060613
+PHP    compiled with module API=20100525
+These options need to match
+ in Unknown on line 0
+[13-Aug-2014 04:22:34 UTC] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
+Module compiled with module API=20060613
+PHP    compiled with module API=20100525
+These options need to match
+ in Unknown on line 0
+[13-Aug-2014 04:22:34 UTC] PHP Fatal error:  Directive 'allow_call_time_pass_reference' is no longer available in PHP in Unknown on line 0
+[13-Aug-2014 04:24:17 UTC] PHP Warning:  PHP Startup: magickwand: Unable to initialize module
+Module compiled with module API=20060613
+PHP    compiled with module API=20100525
+These options need to match
+ in Unknown on line 0
+[13-Aug-2014 04:24:17 UTC] PHP Warning:  PHP Startup: imagick: Unable to initialize module
+Module compiled with module API=20060613
+PHP    compiled with module API=20100525
+These options need to match
+ in Unknown on line 0
+[13-Aug-2014 04:24:17 UTC] PHP Warning:  PHP Startup: PDO: Unable to initialize module
+Module compiled with module API=20060613
+PHP    compiled with module API=20100525
+These options need to match
+ in Unknown on line 0
+[13-Aug-2014 04:24:17 UTC] PHP Warning:  PHP Startup: pdo_sqlite: Unable to initialize module
+Module compiled with module API=20060613
+PHP    compiled with module API=20100525
+These options need to match
+ in Unknown on line 0
+[13-Aug-2014 04:24:17 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/local/lib/php/extensions/no-debug-non-zts-20060613/sqlite.so' - /usr/local/lib/php/extensions/no-debug-non-zts-20060613/sqlite.so: undefined symbol: third_arg_force_ref in Unknown on line 0
+[13-Aug-2014 04:24:17 UTC] PHP Warning:  PHP Startup: pdo_mysql: Unable to initialize module
+Module compiled with module API=20060613
+PHP    compiled with module API=20100525
+These options need to match
+ in Unknown on line 0
+[13-Aug-2014 04:24:17 UTC] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
+Module compiled with module API=20060613
+PHP    compiled with module API=20100525
+These options need to match
+ in Unknown on line 0
+[13-Aug-2014 04:24:17 UTC] PHP Fatal error:  Directive 'allow_call_time_pass_reference' is no longer available in PHP in Unknown on line 0
+[13-Aug-2014 04:24:34 UTC] PHP Warning:  PHP Startup: magickwand: Unable to initialize module
+Module compiled with module API=20060613
+PHP    compiled with module API=20100525
+These options need to match
+ in Unknown on line 0
+[13-Aug-2014 04:24:34 UTC] PHP Warning:  PHP Startup: imagick: Unable to initialize module
+Module compiled with module API=20060613
+PHP    compiled with module API=20100525
+These options need to match
+ in Unknown on line 0
+[13-Aug-2014 04:24:34 UTC] PHP Warning:  PHP Startup: PDO: Unable to initialize module
+Module compiled with module API=20060613
+PHP    compiled with module API=20100525
+These options need to match
+ in Unknown on line 0
+[13-Aug-2014 04:24:34 UTC] PHP Warning:  PHP Startup: pdo_sqlite: Unable to initialize module
+Module compiled with module API=20060613
+PHP    compiled with module API=20100525
+These options need to match
+ in Unknown on line 0
+[13-Aug-2014 04:24:34 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/local/lib/php/extensions/no-debug-non-zts-20060613/sqlite.so' - /usr/local/lib/php/extensions/no-debug-non-zts-20060613/sqlite.so: undefined symbol: third_arg_force_ref in Unknown on line 0
+[13-Aug-2014 04:24:34 UTC] PHP Warning:  PHP Startup: pdo_mysql: Unable to initialize module
+Module compiled with module API=20060613
+PHP    compiled with module API=20100525
+These options need to match
+ in Unknown on line 0
+[13-Aug-2014 04:24:34 UTC] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
+Module compiled with module API=20060613
+PHP    compiled with module API=20100525
+These options need to match
+ in Unknown on line 0
+[13-Aug-2014 04:24:34 UTC] PHP Fatal error:  Directive 'allow_call_time_pass_reference' is no longer available in PHP in Unknown on line 0
+[13-Aug-2014 04:25:50 UTC] PHP Warning:  PHP Startup: magickwand: Unable to initialize module
+Module compiled with module API=20060613
+PHP    compiled with module API=20100525
+These options need to match
+ in Unknown on line 0
+[13-Aug-2014 04:25:50 UTC] PHP Warning:  PHP Startup: imagick: Unable to initialize module
+Module compiled with module API=20060613
+PHP    compiled with module API=20100525
+These options need to match
+ in Unknown on line 0
+[13-Aug-2014 04:25:50 UTC] PHP Warning:  PHP Startup: PDO: Unable to initialize module
+Module compiled with module API=20060613
+PHP    compiled with module API=20100525
+These options need to match
+ in Unknown on line 0
+[13-Aug-2014 04:25:50 UTC] PHP Warning:  PHP Startup: pdo_sqlite: Unable to initialize module
+Module compiled with module API=20060613
+PHP    compiled with module API=20100525
+These options need to match
+ in Unknown on line 0
+[13-Aug-2014 04:25:50 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/local/lib/php/extensions/no-debug-non-zts-20060613/sqlite.so' - /usr/local/lib/php/extensions/no-debug-non-zts-20060613/sqlite.so: undefined symbol: third_arg_force_ref in Unknown on line 0
+[13-Aug-2014 04:25:50 UTC] PHP Warning:  PHP Startup: pdo_mysql: Unable to initialize module
+Module compiled with module API=20060613
+PHP    compiled with module API=20100525
+These options need to match
+ in Unknown on line 0
+[13-Aug-2014 04:25:50 UTC] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
+Module compiled with module API=20060613
+PHP    compiled with module API=20100525
+These options need to match
+ in Unknown on line 0
+[13-Aug-2014 04:25:50 UTC] PHP Fatal error:  Directive 'allow_call_time_pass_reference' is no longer available in PHP in Unknown on line 0
+[13-Aug-2014 04:25:58 UTC] PHP Warning:  PHP Startup: magickwand: Unable to initialize module
+Module compiled with module API=20060613
+PHP    compiled with module API=20100525
+These options need to match
+ in Unknown on line 0
+[13-Aug-2014 04:25:59 UTC] PHP Warning:  PHP Startup: imagick: Unable to initialize module
+Module compiled with module API=20060613
+PHP    compiled with module API=20100525
+These options need to match
+ in Unknown on line 0
+[13-Aug-2014 04:25:59 UTC] PHP Warning:  PHP Startup: PDO: Unable to initialize module
+Module compiled with module API=20060613
+PHP    compiled with module API=20100525
+These options need to match
+ in Unknown on line 0
+[13-Aug-2014 04:25:59 UTC] PHP Warning:  PHP Startup: pdo_sqlite: Unable to initialize module
+Module compiled with module API=20060613
+PHP    compiled with module API=20100525
+These options need to match
+ in Unknown on line 0
+[13-Aug-2014 04:25:59 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/local/lib/php/extensions/no-debug-non-zts-20060613/sqlite.so' - /usr/local/lib/php/extensions/no-debug-non-zts-20060613/sqlite.so: undefined symbol: third_arg_force_ref in Unknown on line 0
+[13-Aug-2014 04:25:59 UTC] PHP Warning:  PHP Startup: pdo_mysql: Unable to initialize module
+Module compiled with module API=20060613
+PHP    compiled with module API=20100525
+These options need to match
+ in Unknown on line 0
+[13-Aug-2014 04:25:59 UTC] PHP Fatal error:  Directive 'allow_call_time_pass_reference' is no longer available in PHP in Unknown on line 0
+[13-Aug-2014 04:26:22 UTC] PHP Fatal error:  Directive 'allow_call_time_pass_reference' is no longer available in PHP in Unknown on line 0
+[13-Aug-2014 04:26:26 UTC] PHP Fatal error:  Directive 'allow_call_time_pass_reference' is no longer available in PHP in Unknown on line 0
+[15-Aug-2014 00:24:43 America/Chicago] PHP Warning:  include_once(../header.php): failed to open stream: No such file or directory in /home/sailor03/public_html/index.php on line 3
+[15-Aug-2014 00:24:43 America/Chicago] PHP Warning:  include_once(): Failed opening '../header.php' for inclusion (include_path='.:/opt/php54/lib/php') in /home/sailor03/public_html/index.php on line 3
+[15-Aug-2014 00:28:01 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/sailor03/public_html/header.php:19) in /home/sailor03/public_html/loginform/loginform.php on line 4
+[15-Aug-2014 00:39:27 America/Chicago] PHP Parse error:  syntax error, unexpected 'session_start' (T_STRING), expecting ',' or ';' in /home/sailor03/public_html/header.php on line 19
+[15-Aug-2014 00:39:47 America/Chicago] PHP Parse error:  syntax error, unexpected 'session_start' (T_STRING), expecting ',' or ';' in /home/sailor03/public_html/header.php on line 19
+[15-Aug-2014 00:39:49 America/Chicago] PHP Parse error:  syntax error, unexpected 'session_start' (T_STRING), expecting ',' or ';' in /home/sailor03/public_html/header.php on line 19
+[15-Aug-2014 00:39:51 America/Chicago] PHP Parse error:  syntax error, unexpected 'session_start' (T_STRING), expecting ',' or ';' in /home/sailor03/public_html/header.php on line 19
+[15-Aug-2014 00:40:01 America/Chicago] PHP Parse error:  syntax error, unexpected 'session_start' (T_STRING), expecting ',' or ';' in /home/sailor03/public_html/header.php on line 19
+[15-Aug-2014 00:40:04 America/Chicago] PHP Parse error:  syntax error, unexpected 'session_start' (T_STRING), expecting ',' or ';' in /home/sailor03/public_html/header.php on line 19
+[15-Aug-2014 00:40:34 America/Chicago] PHP Parse error:  syntax error, unexpected ')', expecting ']' in /home/sailor03/public_html/header.php on line 20
+[15-Aug-2014 00:40:50 America/Chicago] PHP Parse error:  syntax error, unexpected '.' in /home/sailor03/public_html/header.php on line 24
+[15-Aug-2014 00:42:34 America/Chicago] PHP Parse error:  syntax error, unexpected '$SESSION' (T_VARIABLE) in /home/sailor03/public_html/header.php on line 23
+[15-Aug-2014 00:47:36 America/Chicago] PHP Warning:  include_once(../loginform/loginform.php): failed to open stream: No such file or directory in /home/sailor03/public_html/header.php on line 2
+[15-Aug-2014 00:47:36 America/Chicago] PHP Warning:  include_once(): Failed opening '../loginform/loginform.php' for inclusion (include_path='.:/opt/php54/lib/php') in /home/sailor03/public_html/header.php on line 2
+[15-Aug-2014 00:47:36 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/sailor03/public_html/header.php:2) in /home/sailor03/public_html/header.php on line 19
+[15-Aug-2014 00:47:53 America/Chicago] PHP Warning:  include_once(../header.php): failed to open stream: No such file or directory in /home/sailor03/public_html/index.php on line 2
+[15-Aug-2014 00:47:53 America/Chicago] PHP Warning:  include_once(): Failed opening '../header.php' for inclusion (include_path='.:/opt/php54/lib/php') in /home/sailor03/public_html/index.php on line 2
+[15-Aug-2014 00:48:13 America/Chicago] PHP Warning:  include_once(../loginform/loginform.php): failed to open stream: No such file or directory in /home/sailor03/public_html/header.php on line 2
+[15-Aug-2014 00:48:13 America/Chicago] PHP Warning:  include_once(): Failed opening '../loginform/loginform.php' for inclusion (include_path='.:/opt/php54/lib/php') in /home/sailor03/public_html/header.php on line 2
+[15-Aug-2014 00:48:13 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/sailor03/public_html/header.php:2) in /home/sailor03/public_html/header.php on line 19
+[15-Aug-2014 00:51:17 America/Chicago] PHP Warning:  include_once(../loginform/loginform.php): failed to open stream: No such file or directory in /home/sailor03/public_html/header.php on line 2
+[15-Aug-2014 00:51:17 America/Chicago] PHP Warning:  include_once(): Failed opening '../loginform/loginform.php' for inclusion (include_path='.:/opt/php54/lib/php') in /home/sailor03/public_html/header.php on line 2
+[15-Aug-2014 00:51:17 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/sailor03/public_html/header.php:2) in /home/sailor03/public_html/header.php on line 23
+[15-Aug-2014 00:51:24 America/Chicago] PHP Warning:  include_once(../loginform/loginform.php): failed to open stream: No such file or directory in /home/sailor03/public_html/header.php on line 2
+[15-Aug-2014 00:51:24 America/Chicago] PHP Warning:  include_once(): Failed opening '../loginform/loginform.php' for inclusion (include_path='.:/opt/php54/lib/php') in /home/sailor03/public_html/header.php on line 2
+[15-Aug-2014 00:51:24 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/sailor03/public_html/header.php:2) in /home/sailor03/public_html/header.php on line 23
+[15-Aug-2014 00:51:25 America/Chicago] PHP Warning:  include_once(../loginform/loginform.php): failed to open stream: No such file or directory in /home/sailor03/public_html/header.php on line 2
+[15-Aug-2014 00:51:25 America/Chicago] PHP Warning:  include_once(): Failed opening '../loginform/loginform.php' for inclusion (include_path='.:/opt/php54/lib/php') in /home/sailor03/public_html/header.php on line 2
+[15-Aug-2014 00:51:25 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/sailor03/public_html/header.php:2) in /home/sailor03/public_html/header.php on line 23
+[15-Aug-2014 00:51:49 America/Chicago] PHP Warning:  include_once(.../loginform/loginform.php): failed to open stream: No such file or directory in /home/sailor03/public_html/header.php on line 2
+[15-Aug-2014 00:51:49 America/Chicago] PHP Warning:  include_once(): Failed opening '.../loginform/loginform.php' for inclusion (include_path='.:/opt/php54/lib/php') in /home/sailor03/public_html/header.php on line 2
+[15-Aug-2014 00:51:49 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/sailor03/public_html/header.php:2) in /home/sailor03/public_html/header.php on line 23
+[15-Aug-2014 00:51:58 America/Chicago] PHP Warning:  include_once(.../header.php): failed to open stream: No such file or directory in /home/sailor03/public_html/index.php on line 2
+[15-Aug-2014 00:51:58 America/Chicago] PHP Warning:  include_once(): Failed opening '.../header.php' for inclusion (include_path='.:/opt/php54/lib/php') in /home/sailor03/public_html/index.php on line 2
+[15-Aug-2014 00:52:14 America/Chicago] PHP Warning:  include_once(../loginform/loginform.php): failed to open stream: No such file or directory in /home/sailor03/public_html/header.php on line 2
+[15-Aug-2014 00:52:14 America/Chicago] PHP Warning:  include_once(): Failed opening '../loginform/loginform.php' for inclusion (include_path='.:/opt/php54/lib/php') in /home/sailor03/public_html/header.php on line 2
+[15-Aug-2014 00:52:14 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/sailor03/public_html/header.php:2) in /home/sailor03/public_html/header.php on line 23
+[15-Aug-2014 00:53:55 America/Chicago] PHP Warning:  include_once(../loginform/loginform.php): failed to open stream: No such file or directory in /home/sailor03/public_html/header.php on line 2
+[15-Aug-2014 00:53:55 America/Chicago] PHP Warning:  include_once(): Failed opening '../loginform/loginform.php' for inclusion (include_path='.:/opt/php54/lib/php') in /home/sailor03/public_html/header.php on line 2
+[15-Aug-2014 00:53:55 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/sailor03/public_html/header.php:2) in /home/sailor03/public_html/header.php on line 23
+[15-Aug-2014 00:56:53 America/Chicago] PHP Warning:  include_once(/home/sailor03/public_htmlheader.php): failed to open stream: No such file or directory in /home/sailor03/public_html/index.php on line 3
+[15-Aug-2014 00:56:53 America/Chicago] PHP Warning:  include_once(): Failed opening '/home/sailor03/public_htmlheader.php' for inclusion (include_path='.:/opt/php54/lib/php') in /home/sailor03/public_html/index.php on line 3
+[15-Aug-2014 02:13:11 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/sailor03/public_html/header.php:33) in /home/sailor03/public_html/header.php on line 35
+[15-Aug-2014 02:23:23 America/Chicago] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/sailor03/public_html/header.php on line 51
+[15-Aug-2014 02:26:12 America/Chicago] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/sailor03/public_html/header.php on line 52

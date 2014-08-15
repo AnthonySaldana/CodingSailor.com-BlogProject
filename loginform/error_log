@@ -1,0 +1,49 @@
+[11-Aug-2014 20:57:15 America/Chicago] PHP Fatal error:  Can't use function return value in write context in /home/sailor03/public_html/loginform/processlogin.php on line 3
+[11-Aug-2014 20:58:46 America/Chicago] PHP Parse error:  syntax error, unexpected '{' in /home/sailor03/public_html/loginform/processlogin.php on line 4
+[11-Aug-2014 20:59:38 America/Chicago] PHP Parse error:  syntax error, unexpected '{' in /home/sailor03/public_html/loginform/processlogin.php on line 4
+[11-Aug-2014 21:01:59 America/Chicago] PHP Warning:  mysql_real_escape_string(): Access denied for user 'sailor03'@'localhost' (using password: NO) in /home/sailor03/public_html/get_post.php on line 6
+[11-Aug-2014 21:01:59 America/Chicago] PHP Warning:  mysql_real_escape_string(): A link to the server could not be established in /home/sailor03/public_html/get_post.php on line 6
+[11-Aug-2014 21:01:59 America/Chicago] PHP Warning:  mysql_real_escape_string(): Access denied for user 'sailor03'@'localhost' (using password: NO) in /home/sailor03/public_html/get_post.php on line 6
+[11-Aug-2014 21:01:59 America/Chicago] PHP Warning:  mysql_real_escape_string(): A link to the server could not be established in /home/sailor03/public_html/get_post.php on line 6
+[11-Aug-2014 21:05:49 America/Chicago] PHP Warning:  mysql_real_escape_string(): Access denied for user 'sailor03'@'localhost' (using password: NO) in /home/sailor03/public_html/get_post.php on line 6
+[11-Aug-2014 21:05:49 America/Chicago] PHP Warning:  mysql_real_escape_string(): A link to the server could not be established in /home/sailor03/public_html/get_post.php on line 6
+[11-Aug-2014 21:05:49 America/Chicago] PHP Warning:  mysql_real_escape_string(): Access denied for user 'sailor03'@'localhost' (using password: NO) in /home/sailor03/public_html/get_post.php on line 6
+[11-Aug-2014 21:05:49 America/Chicago] PHP Warning:  mysql_real_escape_string(): A link to the server could not be established in /home/sailor03/public_html/get_post.php on line 6
+[11-Aug-2014 21:06:09 America/Chicago] PHP Warning:  mysql_real_escape_string(): Access denied for user 'sailor03'@'localhost' (using password: NO) in /home/sailor03/public_html/get_post.php on line 6
+[11-Aug-2014 21:06:09 America/Chicago] PHP Warning:  mysql_real_escape_string(): A link to the server could not be established in /home/sailor03/public_html/get_post.php on line 6
+[11-Aug-2014 21:06:09 America/Chicago] PHP Warning:  mysql_real_escape_string(): Access denied for user 'sailor03'@'localhost' (using password: NO) in /home/sailor03/public_html/get_post.php on line 6
+[11-Aug-2014 21:06:09 America/Chicago] PHP Warning:  mysql_real_escape_string(): A link to the server could not be established in /home/sailor03/public_html/get_post.php on line 6
+[11-Aug-2014 21:09:44 America/Chicago] PHP Parse error:  syntax error, unexpected ';' in /home/sailor03/public_html/loginform/processlogin.php on line 7
+[11-Aug-2014 21:10:10 America/Chicago] PHP Parse error:  syntax error, unexpected ';' in /home/sailor03/public_html/loginform/processlogin.php on line 7
+[11-Aug-2014 21:10:28 America/Chicago] PHP Parse error:  syntax error, unexpected ';' in /home/sailor03/public_html/loginform/processlogin.php on line 7
+[11-Aug-2014 21:10:54 America/Chicago] PHP Parse error:  syntax error, unexpected ';' in /home/sailor03/public_html/loginform/processlogin.php on line 7
+[11-Aug-2014 21:11:04 America/Chicago] PHP Parse error:  syntax error, unexpected ';' in /home/sailor03/public_html/loginform/processlogin.php on line 7
+[11-Aug-2014 21:11:07 America/Chicago] PHP Parse error:  syntax error, unexpected ';' in /home/sailor03/public_html/loginform/processlogin.php on line 7
+[11-Aug-2014 21:11:32 America/Chicago] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/sailor03/public_html/loginform/processlogin.php on line 11
+[11-Aug-2014 21:12:30 America/Chicago] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/sailor03/public_html/loginform/processlogin.php on line 11
+[11-Aug-2014 21:13:28 America/Chicago] PHP Warning:  mysql_select_db() expects parameter 2 to be resource, string given in /home/sailor03/public_html/get_post.php on line 5
+[11-Aug-2014 21:14:06 America/Chicago] PHP Warning:  mysql_select_db() expects parameter 2 to be resource, null given in /home/sailor03/public_html/get_post.php on line 5
+[11-Aug-2014 21:16:01 America/Chicago] PHP Warning:  mysql_select_db() expects parameter 2 to be resource, null given in /home/sailor03/public_html/get_post.php on line 5
+[11-Aug-2014 21:16:38 America/Chicago] PHP Warning:  Division by zero in /home/sailor03/public_html/get_post.php on line 2
+[11-Aug-2014 21:16:38 America/Chicago] PHP Warning:  Division by zero in /home/sailor03/public_html/get_post.php on line 2
+[11-Aug-2014 21:16:38 America/Chicago] PHP Warning:  require_once(php): failed to open stream: No such file or directory in /home/sailor03/public_html/get_post.php on line 2
+[11-Aug-2014 21:16:38 America/Chicago] PHP Fatal error:  require_once(): Failed opening required 'php' (include_path='.:/opt/php54/lib/php') in /home/sailor03/public_html/get_post.php on line 2
+[11-Aug-2014 21:17:05 America/Chicago] PHP Warning:  mysql_select_db() expects parameter 2 to be resource, null given in /home/sailor03/public_html/get_post.php on line 5
+[11-Aug-2014 22:39:05 America/Chicago] PHP Parse error:  syntax error, unexpected '}' in /home/sailor03/public_html/loginform/processlogin.php on line 27
+[11-Aug-2014 22:39:23 America/Chicago] PHP Fatal error:  Call to undefined function mde() in /home/sailor03/public_html/loginform/processlogin.php on line 20
+[11-Aug-2014 22:39:37 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/sailor03/public_html/loginform/processlogin.php:21) in /home/sailor03/public_html/loginform/processlogin.php on line 22
+[11-Aug-2014 22:43:53 America/Chicago] PHP Fatal error:  Call to undefined function sha256() in /home/sailor03/public_html/loginform/processlogin.php on line 20
+[12-Aug-2014 01:17:44 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/sailor03/public_html/loginform/processlogin.php:26) in /home/sailor03/public_html/loginform/processlogin.php on line 31
+[12-Aug-2014 01:22:41 America/Chicago] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/sailor03/public_html/loginform/processlogin.php on line 30
+[12-Aug-2014 01:23:20 America/Chicago] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/sailor03/public_html/loginform/processlogin.php on line 30
+[12-Aug-2014 14:05:00 America/Chicago] PHP Parse error:  syntax error, unexpected '[' in /home/sailor03/public_html/loginform/processlogin.php on line 41
+[12-Aug-2014 15:41:44 America/Chicago] PHP Parse error:  syntax error, unexpected 'Please' (T_STRING) in /home/sailor03/public_html/loginform/processlogin.php on line 66
+[12-Aug-2014 15:42:13 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/sailor03/public_html/loginform/processlogin.php:52) in /home/sailor03/public_html/loginform/processlogin.php on line 64
+[13-Aug-2014 12:29:17 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/sailor03/public_html/loginform/processlogin.php:34) in /home/sailor03/public_html/loginform/processlogin.php on line 48
+[13-Aug-2014 12:29:17 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/sailor03/public_html/loginform/processlogin.php:34) in /home/sailor03/public_html/loginform/processlogin.php on line 53
+[13-Aug-2014 12:30:13 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/sailor03/public_html/loginform/processlogin.php:34) in /home/sailor03/public_html/loginform/processlogin.php on line 48
+[13-Aug-2014 12:30:13 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/sailor03/public_html/loginform/processlogin.php:34) in /home/sailor03/public_html/loginform/processlogin.php on line 53
+[13-Aug-2014 12:30:20 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/sailor03/public_html/loginform/processlogin.php:34) in /home/sailor03/public_html/loginform/processlogin.php on line 48
+[13-Aug-2014 12:30:20 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/sailor03/public_html/loginform/processlogin.php:34) in /home/sailor03/public_html/loginform/processlogin.php on line 53
+[13-Aug-2014 12:31:11 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/sailor03/public_html/loginform/processlogin.php:34) in /home/sailor03/public_html/loginform/processlogin.php on line 48
+[13-Aug-2014 12:31:11 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/sailor03/public_html/loginform/processlogin.php:34) in /home/sailor03/public_html/loginform/processlogin.php on line 53

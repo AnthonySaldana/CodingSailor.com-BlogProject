@@ -1,0 +1,6 @@
+body{font-family:Segoe UI; margin-left:auto; margin-right:auto; max-width: 700px;}
+
+#login{ background-color:rgba(150,150,150,1); border:solid 1px; color:white;  margin-bottom:0px;
+margin-left:auto; margin-right:auto; max-height:160px;}
+ 
+#loadbutton{float:right;}

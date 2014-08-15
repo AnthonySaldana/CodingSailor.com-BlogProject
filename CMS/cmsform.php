@@ -1,14 +1,18 @@
 <?php
-require_once("../loginform/secure/logindb.php");
+$root = $_SERVER['DOCUMENT_ROOT'];
+require_once($root . "/loginform/secure/logindb.php");
+include_once($root . "/header.php");
 session_start();
 if(isset($_SESSION['username']))
 	{
+		
 				$username = $_SESSION['username'];
 				$password = $_SESSION['password'];
 				$email = $_SESSION['email'];
-				echo "<p> Hello $username.</p>";
-				echo "<a href='../loginform/logout.php'>Logout</a>";
 				
+			//check if login is admin
+		if($username == "admin")
+			{
 		echo<<<_sqltesthtml
 		<form action="mainprocess.php" method="post">
 		<table width = "500px">
@@ -99,4 +103,7 @@ _blogpostquery;
 }
 
 else die("only admin allowed");
+}
+
+
 ?>
