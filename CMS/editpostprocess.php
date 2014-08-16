@@ -14,9 +14,13 @@ mysql_select_db($db_database, $db_server) or die("couldnt connect to database");
 
 $id = get_post('id');
 $content = get_post('editcontent');
+$title = get_post('title');
 $query = "UPDATE blogpost set content = '$content' WHERE id='$id'";
-if(!mysql_query($query)) die("problem processing query");
-else header("Location: http://codingsailor.com/CMS/cmsform.php");
+if(!mysql_query($query)) die("problem processing content");
+else
+	$query = "UPDATE blogpost set title = '$title' WHERE id='$id'";
+	if(!mysql_query($query)) die("problem processing title");
+		else header("Location: http://codingsailor.com/CMS/cmsform.php");
 }
 
 else die("only admin allowed");

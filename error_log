@@ -309,3 +309,19 @@ These options need to match
 [15-Aug-2014 02:13:11 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/sailor03/public_html/header.php:33) in /home/sailor03/public_html/header.php on line 35
 [15-Aug-2014 02:23:23 America/Chicago] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/sailor03/public_html/header.php on line 51
 [15-Aug-2014 02:26:12 America/Chicago] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/sailor03/public_html/header.php on line 52
+[15-Aug-2014 13:38:16 America/Chicago] PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR) in /home/sailor03/public_html/index.php on line 15
+[15-Aug-2014 13:38:45 America/Chicago] PHP Fatal error:  Class 'Zend_Http_Client' not found in /home/sailor03/public_html/index.php on line 9
+[15-Aug-2014 13:40:30 America/Chicago] PHP Fatal error:  Class 'file_get_contents' not found in /home/sailor03/public_html/index.php on line 9
+[15-Aug-2014 13:40:45 America/Chicago] PHP Warning:  file_get_contents(https://api.instagram.com/v1/media/popular): failed to open stream: HTTP request failed! HTTP/1.1 400 BAD REQUEST
+ in /home/sailor03/public_html/index.php on line 9
+[15-Aug-2014 13:40:45 America/Chicago] PHP Fatal error:  Call to a member function setParameterGet() on a non-object in /home/sailor03/public_html/index.php on line 10
+[15-Aug-2014 13:41:53 America/Chicago] PHP Warning:  file_get_contents(https://api.instagram.com/v1/subscriptions/): failed to open stream: HTTP request failed! HTTP/1.1 400 BAD REQUEST
+ in /home/sailor03/public_html/index.php on line 9
+[15-Aug-2014 13:41:53 America/Chicago] PHP Fatal error:  Call to a member function setParameterGet() on a non-object in /home/sailor03/public_html/index.php on line 10
+[15-Aug-2014 14:01:13 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/sailor03/public_html/index.php:7) in /home/sailor03/public_html/header.php on line 4
+[15-Aug-2014 19:41:38 America/Chicago] PHP Fatal error:  Call to undefined function includ_once() in /home/sailor03/public_html/index.php on line 4
+[15-Aug-2014 19:41:46 America/Chicago] PHP Warning:  include_once(/home/sailor03/public_htmlposts/current.php): failed to open stream: No such file or directory in /home/sailor03/public_html/index.php on line 4
+[15-Aug-2014 19:41:46 America/Chicago] PHP Warning:  include_once(): Failed opening '/home/sailor03/public_htmlposts/current.php' for inclusion (include_path='.:/opt/php54/lib/php') in /home/sailor03/public_html/index.php on line 4
+[15-Aug-2014 20:19:32 America/Chicago] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, null given in /home/sailor03/public_html/posts/current.php on line 16
+[15-Aug-2014 20:20:01 America/Chicago] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, null given in /home/sailor03/public_html/posts/current.php on line 16
+[15-Aug-2014 20:20:09 America/Chicago] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, null given in /home/sailor03/public_html/posts/current.php on line 16

@@ -18,3 +18,4 @@
 [15-Aug-2014 00:56:25 America/Chicago] PHP Parse error:  syntax error, unexpected end of file, expecting ']' in /home/sailor03/public_html/CMS/cmsform.php on line 9
 [15-Aug-2014 01:39:50 America/Chicago] PHP Warning:  require_once(/loginform/secure/logindb.php): failed to open stream: No such file or directory in /home/sailor03/public_html/CMS/cmsform.php on line 2
 [15-Aug-2014 01:39:50 America/Chicago] PHP Fatal error:  require_once(): Failed opening required '/loginform/secure/logindb.php' (include_path='.:/opt/php54/lib/php') in /home/sailor03/public_html/CMS/cmsform.php on line 2
+[15-Aug-2014 20:44:32 America/Chicago] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/sailor03/public_html/CMS/editpostprocess.php on line 21

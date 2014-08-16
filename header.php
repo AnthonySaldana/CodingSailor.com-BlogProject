@@ -9,10 +9,6 @@ if(isset($_SESSION['username']))
 	$email = $_SESSION['email'];
 }
 echo<<<_headerhtml
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<title>Coding Sailor</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <!-- bootstrap -->
 <link href="../bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -56,24 +52,23 @@ echo<<<_loginformhtml
           <li class="divider-vertical"></li>
           <li class="dropdown">
 		  <a class="dropdown-toggle" href="#" data-toggle="dropdown">Register <strong class="caret"></strong></a>
-          <div class="dropdown-menu" style="padding: 15px; padding-bottom: 0px;">
-		  <form  id="login" name="login" action="loginform/processlogin.php" method="POST" />
+          <div class="dropdown-menu" style="min-width:auto; padding: 15px; padding-bottom: 0px;">
+		  <form  id="login" name="login" action="../loginform/processlogin.php" method="POST" />
 		</br>Username: <input type="text" name="username"/>
 		</br>Password: <input type="password" name="pwd"/>
 		</br>Email:<input type="text" name="email" id="emailsec"/>
 		<input type="submit" name="signup" value="register" id="signupbutton"/>
-	</form>
+		</form>
 		<li class="divider-vertical"></li>
           <li class="dropdown">
           <a class="dropdown-toggle" href="#" data-toggle="dropdown">Login<strong class="caret"></strong></a>
           <div class="dropdown-menu" style="padding: 15px; padding-bottom: 0px;">
               <!-- Login form here -->
-	<form  id="login" name="login" action="loginform/processlogin.php" method="POST" />
+	<form  id="login" name="login" action="../loginform/processlogin.php" method="POST" />
 		</br>Username: <input type="text" name="username"/>
 		</br>Password: <input type="password" name="pwd"/>
 		<input type="submit" name="signin" value="Login" id="signinbutton"/>
 	</form>
-	</br>
 </div>
 _loginformhtml;
 }
@@ -83,10 +78,23 @@ echo<<<_headerhtml2
 </div>
 </div>
 </div>
-</br>
 
 <script src="http://code.jquery.com/jquery.js"></script>
 <script src="../bootstrap/js/bootstrap.js"></script>
+
+<script type="text/javascript">
+    window._idl = {};
+    _idl.variant = "modal";
+    (function() {
+        var idl = document.createElement('script');
+        idl.type = 'text/javascript';
+        idl.async = true;
+        idl.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'members.internetdefenseleague.org/include/?url=' + (_idl.url || '') + '&campaign=' + (_idl.campaign || '') + '&variant=' + (_idl.variant || 'modal');
+        document.getElementsByTagName('body')[0].appendChild(idl);
+    })();
+</script>
+
+
 </body>
 </html>
 _headerhtml2;
