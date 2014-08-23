@@ -22,7 +22,7 @@ if(!$resultcurrent) die("couldnt read posts");
 			<div class-'row'>
 			<div class='col-md-12'>
 			<div class='list-group'>
-			<a href='#' class='list-group-item'>
+			<a class='list-group-item'>
 			<h2 Class='list-group-item-heading'>$row[1]</h2>
 			<p>$row[2]</p>
 			<p>$row[4]</p></a>
@@ -32,18 +32,4 @@ if(!$resultcurrent) die("couldnt read posts");
 			</div>
 _currentposts;
 		}
-$test = "<div class='containter'>
-<div class-'row'>
-	<div class='col-md-6'>
-		<div class='list-group'>
-			<center><a href='#' class='list-group-item'>
-			<h3Class='list-group-item-heading'>Hello World</h3>
-			<p>Want to take a break from studying? Want to play your 
-favorite videogame? Or how about a game of pool with your friends? If that's the case, the 
-GamesRoom is perfect for you! The GamesRoom is located in the Mub and is open 
-everyday!</p></a></center>
-		</div>
-	</div>
-</div>
-</div>"
 ?>

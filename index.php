@@ -17,4 +17,5 @@ my life - arbie'>
 _headerhtml;
 
 include_once($root . "/posts/current.php");
+include_once($root . "/footer.php");
 ?>

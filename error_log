@@ -325,3 +325,5 @@ These options need to match
 [15-Aug-2014 20:19:32 America/Chicago] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, null given in /home/sailor03/public_html/posts/current.php on line 16
 [15-Aug-2014 20:20:01 America/Chicago] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, null given in /home/sailor03/public_html/posts/current.php on line 16
 [15-Aug-2014 20:20:09 America/Chicago] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, null given in /home/sailor03/public_html/posts/current.php on line 16
+[18-Aug-2014 13:44:38 America/Chicago] PHP Parse error:  syntax error, unexpected end of file, expecting variable (T_VARIABLE) or heredoc end (T_END_HEREDOC) or ${ (T_DOLLAR_OPEN_CURLY_BRACES) or {$ (T_CURLY_OPEN) in /home/sailor03/public_html/footer.php on line 12
+[18-Aug-2014 13:45:10 America/Chicago] PHP Parse error:  syntax error, unexpected end of file, expecting variable (T_VARIABLE) or heredoc end (T_END_HEREDOC) or ${ (T_DOLLAR_OPEN_CURLY_BRACES) or {$ (T_CURLY_OPEN) in /home/sailor03/public_html/footer.php on line 12
