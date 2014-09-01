@@ -26,12 +26,18 @@ if(isset($_POST['username']) && isset($_POST['pwd']) && !empty($_POST['username'
 	//run this if the the signup button was clicked. If sign in was clicked, skip it.
 	if(isset($_POST['signup']))
 	{
-		$email = get_post('email');
-		$signupquery = "INSERT INTO user(username, password, email) 
-		VALUES('$user', '$token', '$email')";
-		$result = mysql_query($signupquery);
-		if(!result) die("error signing up");
-		//echo "signed up";
+		$email = test_email($_POST['email']);
+		$duplicatequery = mysql_query("SELECT 1 FROM user where email = '$email'");
+		if (mysql_num_rows($duplicatequery) == 0 )
+		{
+			$datejoined = date('y/m/d');
+			$signupquery = "INSERT INTO user(username, password, email, datejoined) 
+			VALUES('$user', '$token', '$email' , '$datejoined')";
+			$result = mysql_query($signupquery);
+			if(!result) die("error signing up");
+			//echo "signed up";
+		}
+		else my_die ("duplicate email");
 	}
 	
 	//Here we check if the username/password combo exists and if not, send em packing!

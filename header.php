@@ -32,17 +32,24 @@ echo<<<_headerhtml
 	<a class="navbar-brand">Coding Sailor</a>
 	<div class="collapse navbar-collapse">
 	<ul class="nav navbar-nav navbar-right">
-	<li><a href = "../index.php">Home</a></li>
 _headerhtml;
+
+if ($tag == "home")
+{ echo "<li class='active'><a href = '../index.php'>Home</a></li>"; }
+else { echo "<li><a href = '../index.php'>Home</a></li>"; }
 
 session_start();
 if(isset($_SESSION['username']))
 {	
 	if($username == "admin")
 	{
-	echo"<li><a href= '../CMS/cmsform.php'>CMS</a></li>";
+		if ($tag == "cms")
+			{ echo "<li class='active'><a href= '../CMS/cmsform.php'>CMS</a></li>"; }
+			else { echo"<li><a href= '../CMS/cmsform.php'>CMS</a></li>"; }
 	}
-	
+	if ($tag == "user")
+			{ echo "<li class='active'><a href= '../user/index.php'>profile</a></li>"; }
+			else { echo"<li><a href= '../user/index.php'>profile</a></li>"; }
 	echo"<li><a>Hello $username ,</a></li>";
 	echo"<li><a href='../loginform/logout.php' id='logout'>Logout</a></li>";
 }	

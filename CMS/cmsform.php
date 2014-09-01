@@ -1,4 +1,5 @@
 <?php
+$tag="cms";
 $root = $_SERVER['DOCUMENT_ROOT'];
 require_once($root . "/loginform/secure/logindb.php");
 include_once($root . "/header.php");
