@@ -52,9 +52,11 @@ if(isset($_POST['username']) && isset($_POST['pwd']) && !empty($_POST['username'
 			if($token == $row[2])
 				{
 					session_start();
+					$id = $row[0];
 					$_SESSION['username'] = $user;
 					$_SESSION['password'] = $token;
 					$_SESSION['email'] = $email;
+					$_SESSION['id'] = $id;
 					//echo"login successful";
 					header("Location: http://codingsailor.com");
 				}
