@@ -35,8 +35,12 @@ echo<<<_headerhtml
 _headerhtml;
 
 if ($tag == "home")
-{ echo "<li class='active'><a href = '../index.php'>Home</a></li>"; }
-else { echo "<li><a href = '../index.php'>Home</a></li>"; }
+{ echo "<li class='active'><a href = '/index.php'>Home</a></li>"; }
+else { echo "<li><a href = '/index.php'>Home</a></li>"; }
+
+if ($tag == "posts")
+{ echo "<li class='active'><a href = '/posts/'> Blog Posts</a></li>"; }
+else { echo "<li><a href = '/posts'>Blog Posts</a></li>"; }
 
 session_start();
 if(isset($_SESSION['username']))
