@@ -14,22 +14,22 @@ $latestquery = "SELECT * FROM blogpost ORDER BY id DESC";
 $resultcurrent=mysql_query($latestquery);
 if(!$resultcurrent) die("couldnt read posts");
 		$rows=mysql_num_rows($resultcurrent);
+		echo"<div class='container'>
+			<div class='row'>";
 		for($j=0; $j<$rows; $j++)
 		{
 			$row = mysql_fetch_row($resultcurrent);
+			$postcontent = substr($row[2], 0, 300) . "...";
 	echo<<<_currentposts
-			<div class='containter'>
-			<div class-'row'>
-			<div class='col-md-6'>
-			<div class='list-group'>
-			<a class='list-group-item'>
-			<h2 Class='list-group-item-heading'>$row[1]</h2>
-			<p>$row[2]</p>
-			<p>$row[4]</p></a>
-			</div>
-			</div>
-			</div>
-			</div>
+				<div class='col-md-4'>
+					<div class='list-group'>
+						<a href='/posts/viewpost.php?postid=$row[3]' class='list-group-item currentpost'>
+						<h2 Class='list-group-item-heading'>$row[1]</h2>
+						<p>$postcontent</p>
+						<p>$row[4]</p></a>
+					</div>
+				</div>
 _currentposts;
 		}
+echo "</div> </div>";
 ?>
