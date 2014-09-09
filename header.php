@@ -38,6 +38,10 @@ if ($tag == "home")
 { echo "<li class='active'><a href = '/index.php'>Home</a></li>"; }
 else { echo "<li><a href = '/index.php'>Home</a></li>"; }
 
+if ($tag == "about")
+{ echo "<li class='active'><a href = '/about.php/'> About Me</a></li>"; }
+else { echo "<li><a href = '/about.php'>About Me</a></li>"; }
+
 if ($tag == "posts")
 { echo "<li class='active'><a href = '/posts/'> Blog Posts</a></li>"; }
 else { echo "<li><a href = '/posts'>Blog Posts</a></li>"; }
