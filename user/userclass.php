@@ -23,6 +23,7 @@ class user
 		public $userwebsite;
 		public $dateofbirth;
 		public $userabout;
+		public $userimg;
 		
 	function __construct()
 	{		
@@ -60,15 +61,29 @@ class user
 				$this->password = $row[2];
 				$this->useremail = $row[3];
 				$this->datejoined = $row[4];
-				$this->realname = $row[6];
-				$this->usercity = $row[7];
-				$this->userstate = $row[8];
-				$this->usercountry = $row[9];
-				$this->userwebsite = $row[10];
-				$this->dateofbirth = $row[11];
-				$this->userabout = $row[12];
+				$this->userimg = $row[5];
+				//row 6 is equal to the userid. Used to link tables.
+				$this->realname = $row[7];
+				$this->usercity = $row[8];
+				$this->userstate = $row[9];
+				$this->usercountry = $row[10];
+				$this->userwebsite = $row[11];
+				$this->dateofbirth = $row[12];
+				$this->userabout = $row[13];
 			}
 	}
-		
+	
+	function editprofile()
+	{	
+		$query = "UPDATE user, userinfo
+				 SET user.username = '$this->username', user.email = '$this->useremail',
+				 userinfo.name = '$this->realname', userinfo.city = '$this->usercity',
+				 userinfo.state = '$this->userstate', userinfo.country = '$this->usercountry',
+				 userinfo.website = '$this->userwebsite', userinfo.birthdate = '$this->dateofbirth',
+				 userinfo.aboutme = '$this->userabout'
+				 WHERE user.id = userinfo.id
+				 AND user.id = '$this->userid'";
+		if(!mysql_query($query)) die("didnt work" . mysql_error());
+	}
 }
 ?>
