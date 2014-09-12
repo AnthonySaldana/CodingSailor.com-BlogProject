@@ -1,16 +1,8 @@
 <?php
 $root = $_SERVER['DOCUMENT_ROOT'];
-/*$config = parse_ini_file($root .  '/../config.ini', true);
 
-$db_hostname = $config['database']['host'];
-$db_username = $config['database']['username'];
-$db_password = $config['database']['password'];
-$db_database = $config['database']['databasename'];*/
-
-//
 class user 
 {
-//include_once($root . "/loginform/secure/logindb.php");
 public $userid;
 public $username;
 public $password;
