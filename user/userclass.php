@@ -68,14 +68,18 @@ function __construct()
 function editprofile()
 {	
 	$query = "UPDATE user, userinfo
-	 SET user.username = '$this->username', user.email = '$this->useremail',
-	 userinfo.name = '$this->realname', userinfo.city = '$this->usercity',
-	 userinfo.state = '$this->userstate', userinfo.country = '$this->usercountry',
-	 userinfo.website = '$this->userwebsite', userinfo.birthdate = '$this->dateofbirth',
+	 SET user.username = '$this->username', 
+	 user.email = '$this->useremail',
+	 userinfo.name = '$this->realname',
+	 userinfo.city = '$this->usercity',
+	 userinfo.state = '$this->userstate',
+	 userinfo.country = '$this->usercountry',
+	 userinfo.website = '$this->userwebsite', 
+	 userinfo.birthdate = '$this->dateofbirth',
 	 userinfo.aboutme = '$this->userabout'
 	 WHERE user.id = userinfo.id
 	 AND user.id = '$this->userid'";
-	if(!mysql_query($query)) die("didnt work" . mysql_error());
+	if(!mysql_query($query)) die("Error updating profile." . mysql_error());
 	}
 }
 ?>
