@@ -1,0 +1,4 @@
+[14-Sep-2014 02:35:57 America/Chicago] PHP Parse error:  syntax error, unexpected end of file in /home/sailor03/public_html/comments/commentform.php on line 17
+[14-Sep-2014 03:04:00 America/Chicago] PHP Parse error:  syntax error, unexpected '=', expecting ';' in /home/sailor03/public_html/comments/fizzbuzz.php on line 3
+[14-Sep-2014 03:04:24 America/Chicago] PHP Parse error:  syntax error, unexpected '++' (T_INC), expecting ';' in /home/sailor03/public_html/comments/fizzbuzz.php on line 3
+[14-Sep-2014 03:05:10 America/Chicago] PHP Parse error:  syntax error, unexpected '++' (T_INC), expecting ')' in /home/sailor03/public_html/comments/fizzbuzz.php on line 3

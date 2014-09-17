@@ -2,3 +2,64 @@
 [01-Sep-2014 13:48:44 America/Chicago] PHP Fatal error:  require_once(): Failed opening required 'userclass.php' (include_path='.:/opt/php54/lib/php') in /home/sailor03/public_html/user/index.php on line 2
 [01-Sep-2014 14:49:08 America/Chicago] PHP Warning:  require_once(userclass.php): failed to open stream: No such file or directory in /home/sailor03/public_html/user/index.php on line 2
 [01-Sep-2014 14:49:08 America/Chicago] PHP Fatal error:  require_once(): Failed opening required 'userclass.php' (include_path='.:/opt/php54/lib/php') in /home/sailor03/public_html/user/index.php on line 2
+[01-Sep-2014 16:02:51 America/Chicago] PHP Parse error:  syntax error, unexpected ';' in /home/sailor03/public_html/user/index.php on line 5
+[01-Sep-2014 16:02:56 America/Chicago] PHP Parse error:  syntax error, unexpected ';' in /home/sailor03/public_html/user/index.php on line 5
+[01-Sep-2014 16:03:12 America/Chicago] PHP Warning:  require_once(/home/sailor03/public_html/useruserclass.php): failed to open stream: No such file or directory in /home/sailor03/public_html/user/index.php on line 5
+[01-Sep-2014 16:03:12 America/Chicago] PHP Fatal error:  require_once(): Failed opening required '/home/sailor03/public_html/useruserclass.php' (include_path='.:/opt/php54/lib/php') in /home/sailor03/public_html/user/index.php on line 5
+[01-Sep-2014 18:43:06 America/Chicago] PHP Fatal error:  Cannot use [] for reading in /home/sailor03/public_html/user/userdb.php on line 22
+[01-Sep-2014 20:48:48 America/Chicago] PHP Parse error:  syntax error, unexpected '$row' (T_VARIABLE) in /home/sailor03/public_html/user/userclass.php on line 4
+[01-Sep-2014 20:49:48 America/Chicago] PHP Parse error:  syntax error, unexpected '$row' (T_VARIABLE) in /home/sailor03/public_html/user/userclass.php on line 6
+[01-Sep-2014 20:51:45 America/Chicago] PHP Parse error:  syntax error, unexpected '$row' (T_VARIABLE) in /home/sailor03/public_html/user/userclass.php on line 6
+[01-Sep-2014 20:54:37 America/Chicago] PHP Fatal error:  Non-abstract method user::__construct() must contain body in /home/sailor03/public_html/user/userclass.php on line 6
+[01-Sep-2014 20:56:22 America/Chicago] PHP Fatal error:  Non-abstract method user::__construct() must contain body in /home/sailor03/public_html/user/userclass.php on line 6
+[01-Sep-2014 20:57:32 America/Chicago] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC) in /home/sailor03/public_html/user/userclass.php on line 27
+[01-Sep-2014 20:57:34 America/Chicago] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC) in /home/sailor03/public_html/user/userclass.php on line 27
+[01-Sep-2014 20:58:47 America/Chicago] PHP Parse error:  syntax error, unexpected '$row' (T_VARIABLE) in /home/sailor03/public_html/user/userclass.php on line 6
+[01-Sep-2014 21:00:25 America/Chicago] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC) in /home/sailor03/public_html/user/userclass.php on line 39
+[01-Sep-2014 21:06:21 America/Chicago] PHP Warning:  include_once(/home/sailor03/public_htmlheader.php): failed to open stream: No such file or directory in /home/sailor03/public_html/user/index.php on line 5
+[01-Sep-2014 21:06:21 America/Chicago] PHP Warning:  include_once(): Failed opening '/home/sailor03/public_htmlheader.php' for inclusion (include_path='.:/opt/php54/lib/php') in /home/sailor03/public_html/user/index.php on line 5
+[01-Sep-2014 21:06:21 America/Chicago] PHP Warning:  include_once(/home/sailor03/public_htmlprofileview.php): failed to open stream: No such file or directory in /home/sailor03/public_html/user/index.php on line 6
+[01-Sep-2014 21:06:21 America/Chicago] PHP Warning:  include_once(): Failed opening '/home/sailor03/public_htmlprofileview.php' for inclusion (include_path='.:/opt/php54/lib/php') in /home/sailor03/public_html/user/index.php on line 6
+[01-Sep-2014 21:06:21 America/Chicago] PHP Warning:  include_once(/home/sailor03/public_htmlfooter.php): failed to open stream: No such file or directory in /home/sailor03/public_html/user/index.php on line 7
+[01-Sep-2014 21:06:21 America/Chicago] PHP Warning:  include_once(): Failed opening '/home/sailor03/public_htmlfooter.php' for inclusion (include_path='.:/opt/php54/lib/php') in /home/sailor03/public_html/user/index.php on line 7
+[01-Sep-2014 21:06:44 America/Chicago] PHP Warning:  include_once(/home/sailor03/public_htmlheader.php): failed to open stream: No such file or directory in /home/sailor03/public_html/user/index.php on line 5
+[01-Sep-2014 21:06:44 America/Chicago] PHP Warning:  include_once(): Failed opening '/home/sailor03/public_htmlheader.php' for inclusion (include_path='.:/opt/php54/lib/php') in /home/sailor03/public_html/user/index.php on line 5
+[01-Sep-2014 21:06:44 America/Chicago] PHP Warning:  include_once(/home/sailor03/public_htmlfooter.php): failed to open stream: No such file or directory in /home/sailor03/public_html/user/index.php on line 7
+[01-Sep-2014 21:06:44 America/Chicago] PHP Warning:  include_once(): Failed opening '/home/sailor03/public_htmlfooter.php' for inclusion (include_path='.:/opt/php54/lib/php') in /home/sailor03/public_html/user/index.php on line 7
+[01-Sep-2014 21:09:53 America/Chicago] PHP Warning:  mysql_connect(): Access denied for user 'sailor03'@'localhost' (using password: NO) in /home/sailor03/public_html/user/userclass.php on line 21
+[01-Sep-2014 21:09:53 America/Chicago] PHP Warning:  mysql_select_db() expects parameter 2 to be resource, boolean given in /home/sailor03/public_html/user/userclass.php on line 27
+[01-Sep-2014 23:04:58 America/Chicago] PHP Warning:  mysql_connect(): Access denied for user 'sailor03'@'localhost' (using password: NO) in /home/sailor03/public_html/user/userclass.php on line 21
+[01-Sep-2014 23:04:58 America/Chicago] PHP Warning:  mysql_select_db() expects parameter 2 to be resource, boolean given in /home/sailor03/public_html/user/userclass.php on line 27
+[02-Sep-2014 00:23:13 America/Chicago] PHP Warning:  mysql_connect(): Access denied for user 'sailor03'@'localhost' (using password: NO) in /home/sailor03/public_html/user/userclass.php on line 21
+[02-Sep-2014 00:23:13 America/Chicago] PHP Warning:  mysql_select_db() expects parameter 2 to be resource, boolean given in /home/sailor03/public_html/user/userclass.php on line 27
+[02-Sep-2014 00:38:36 America/Chicago] PHP Parse error:  syntax error, unexpected '[' in /home/sailor03/public_html/user/userclass.php on line 5
+[02-Sep-2014 00:39:18 America/Chicago] PHP Warning:  mysql_connect(): Access denied for user 'sailor03'@'localhost' (using password: NO) in /home/sailor03/public_html/user/userclass.php on line 28
+[02-Sep-2014 00:39:18 America/Chicago] PHP Warning:  mysql_select_db() expects parameter 2 to be resource, boolean given in /home/sailor03/public_html/user/userclass.php on line 34
+[02-Sep-2014 00:40:07 America/Chicago] PHP Parse error:  syntax error, unexpected '$config' (T_VARIABLE), expecting function (T_FUNCTION) in /home/sailor03/public_html/user/userclass.php on line 7
+[02-Sep-2014 00:43:55 America/Chicago] PHP Parse error:  syntax error, unexpected '(', expecting ',' or ';' in /home/sailor03/public_html/user/userclass.php on line 7
+[02-Sep-2014 00:44:41 America/Chicago] PHP Parse error:  syntax error, unexpected '$_SERVER' (T_VARIABLE) in /home/sailor03/public_html/user/userclass.php on line 6
+[02-Sep-2014 00:47:03 America/Chicago] PHP Parse error:  syntax error, unexpected '$_SERVER' (T_VARIABLE) in /home/sailor03/public_html/user/userclass.php on line 6
+[02-Sep-2014 00:48:46 America/Chicago] PHP Parse error:  syntax error, unexpected 'include_once' (T_INCLUDE_ONCE), expecting function (T_FUNCTION) in /home/sailor03/public_html/user/userclass.php on line 13
+[02-Sep-2014 00:50:21 America/Chicago] PHP Warning:  parse_ini_file(/../config.ini): failed to open stream: No such file or directory in /home/sailor03/public_html/user/userclass.php on line 29
+[02-Sep-2014 00:50:21 America/Chicago] PHP Warning:  mysql_connect(): Access denied for user 'sailor03'@'localhost' (using password: NO) in /home/sailor03/public_html/user/userclass.php on line 35
+[02-Sep-2014 00:50:21 America/Chicago] PHP Warning:  mysql_select_db() expects parameter 2 to be resource, boolean given in /home/sailor03/public_html/user/userclass.php on line 41
+[08-Sep-2014 11:57:06 America/Chicago] PHP Warning:  require_once(/user/userclass.php): failed to open stream: No such file or directory in /home/sailor03/public_html/user/profileview.php on line 2
+[08-Sep-2014 11:57:06 America/Chicago] PHP Fatal error:  require_once(): Failed opening required '/user/userclass.php' (include_path='.:/opt/php54/lib/php') in /home/sailor03/public_html/user/profileview.php on line 2
+[08-Sep-2014 11:58:22 America/Chicago] PHP Parse error:  syntax error, unexpected '?>' in /home/sailor03/public_html/footer.php on line 12
+[08-Sep-2014 11:58:43 America/Chicago] PHP Parse error:  syntax error, unexpected '?>' in /home/sailor03/public_html/footer.php on line 12
+[09-Sep-2014 17:09:17 America/Chicago] PHP Warning:  require_once(/user/userclass.php): failed to open stream: No such file or directory in /home/sailor03/public_html/user/editprofile.php on line 2
+[09-Sep-2014 17:09:17 America/Chicago] PHP Fatal error:  require_once(): Failed opening required '/user/userclass.php' (include_path='.:/opt/php54/lib/php') in /home/sailor03/public_html/user/editprofile.php on line 2
+[09-Sep-2014 17:09:24 America/Chicago] PHP Warning:  require_once(/user/userclass.php): failed to open stream: No such file or directory in /home/sailor03/public_html/user/editprofile.php on line 2
+[09-Sep-2014 17:09:24 America/Chicago] PHP Fatal error:  require_once(): Failed opening required '/user/userclass.php' (include_path='.:/opt/php54/lib/php') in /home/sailor03/public_html/user/editprofile.php on line 2
+[09-Sep-2014 17:17:04 America/Chicago] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/sailor03/public_html/user/userclass.php on line 77
+[09-Sep-2014 17:19:50 America/Chicago] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/sailor03/public_html/user/userclass.php on line 77
+[09-Sep-2014 18:00:08 America/Chicago] PHP Catchable fatal error:  Object of class user could not be converted to string in /home/sailor03/public_html/user/profileview.php on line 38
+[09-Sep-2014 18:00:10 America/Chicago] PHP Catchable fatal error:  Object of class user could not be converted to string in /home/sailor03/public_html/user/profileview.php on line 38
+[10-Sep-2014 00:37:23 America/Chicago] PHP Parse error:  syntax error, unexpected ';', expecting ',' or ')' in /home/sailor03/public_html/user/index.php on line 15
+[10-Sep-2014 00:37:35 America/Chicago] PHP Parse error:  syntax error, unexpected 'there' (T_STRING), expecting ',' or ';' in /home/sailor03/public_html/user/index.php on line 19
+[10-Sep-2014 11:34:24 America/Chicago] PHP Warning:  include_once(/home/sailor03/public_html/user/editprofileproccess.php): failed to open stream: No such file or directory in /home/sailor03/public_html/user/index.php on line 20
+[10-Sep-2014 11:34:24 America/Chicago] PHP Warning:  include_once(): Failed opening '/home/sailor03/public_html/user/editprofileproccess.php' for inclusion (include_path='.:/opt/php54/lib/php') in /home/sailor03/public_html/user/index.php on line 20
+[10-Sep-2014 11:55:39 America/Chicago] PHP Fatal error:  Call to undefined function editprofile() in /home/sailor03/public_html/user/editprofileproccess.php on line 5
+[10-Sep-2014 11:56:21 America/Chicago] PHP Fatal error:  Call to undefined function editprofile() in /home/sailor03/public_html/user/editprofileproccess.php on line 5
+[10-Sep-2014 12:15:19 America/Chicago] PHP Warning:  Creating default object from empty value in /home/sailor03/public_html/user/userclass.php on line 78
+[10-Sep-2014 12:18:42 America/Chicago] PHP Fatal error:  Using $this when not in object context in /home/sailor03/public_html/user/editprofileproccess.php on line 4
