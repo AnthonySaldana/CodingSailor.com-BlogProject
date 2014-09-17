@@ -331,3 +331,4 @@ These options need to match
 [25-Aug-2014 09:34:29 America/Chicago] PHP Parse error:  syntax error, unexpected ';' in /home/sailor03/public_html/header.php on line 37
 [01-Sep-2014 13:02:20 America/Chicago] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';' in /home/sailor03/public_html/header.php on line 49
 [01-Sep-2014 13:04:45 America/Chicago] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/sailor03/public_html/header.php on line 47
+[08-Sep-2014 11:58:15 America/Chicago] PHP Parse error:  syntax error, unexpected '?>' in /home/sailor03/public_html/footer.php on line 12

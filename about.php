@@ -17,7 +17,7 @@ include_once($root . "/header.php");
 		<div class="col-md-8">
 				<h1>About Me & Coding Sailor</h1>
 				<p class="h4 abouttext">My name is Anthony Saldana. I have come to be known by the nickname Arbie. 
-				I currently (September of 2014) live in Whittier, with my fiancÃ©e and son.
+				I currently (September of 2014) live in Whittier, with my fiancée and son.
 				I'm a web developer. I've always loved technology and more specifically, computers.
 				Since a child I was fascinated by them. I would have to say that the path to me becoming
 				a programmer began when I took apart my computer for the first time. In some way I became 
@@ -68,7 +68,7 @@ include_once($root . "/header.php");
 		</div>
 		<div class="col-md-4">
 			<img src="/images/users/aboutme.jpg" width="100%"/>
-			<h2><u>Programmer</u><br/>proÂ·gramÂ·mer- noun: An organism capable of converting caffeine into code.</h2>
+			<h2><u>Programmer</u><br/>pro·gram·mer- noun: An organism capable of converting caffeine into code.</h2>
 		</div>
 	</div>
 </div>

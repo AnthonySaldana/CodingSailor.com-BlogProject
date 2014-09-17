@@ -1,0 +1,3 @@
+[08-Sep-2014 12:13:07 America/Chicago] PHP Warning:  include(/home/sailor03/public_htmlheader.php): failed to open stream: No such file or directory in /home/sailor03/public_html/posts/viewpost.php on line 3
+[08-Sep-2014 12:13:07 America/Chicago] PHP Warning:  include(): Failed opening '/home/sailor03/public_htmlheader.php' for inclusion (include_path='.:/opt/php54/lib/php') in /home/sailor03/public_html/posts/viewpost.php on line 3
+[09-Sep-2014 13:29:53 America/Chicago] PHP Parse error:  syntax error, unexpected 'include_once' (T_INCLUDE_ONCE), expecting ',' or ';' in /home/sailor03/public_html/posts/index.php on line 6

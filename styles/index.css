@@ -1,3 +1,8 @@
 .imgcontainer{
-	background-image:url("../images/coffeebooks.png");
+	background-image:url("../images/blur.png");
+	background-size:100%;
+}
+
+.currentpost{
+	background-color:rgba(50,50,100,.3);
 }

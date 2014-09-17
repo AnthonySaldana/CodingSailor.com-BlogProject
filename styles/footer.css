@@ -1,2 +1,24 @@
-#footer{background-color:rgba(25,25,25,1); color:white;}
+#footer{
+background-color:rgba(25,25,25,1); 
+color:white;
+margin:0px;
+border-radius:0px;
+border:0px;
+}
+
 #footer a{color:white; text-decoration:none;}
+
+.defenseleague{
+	margin-top:20px;
+}
+
+.footerlinks{
+	margin-top:20px;
+}
+
+.codingfooter{
+	background-color: rgba(50,50,50,1);
+	width:101%;
+	margin-right:0px;
+	color:rgba(170,170,170,1);
+}
