@@ -69,7 +69,6 @@ class userloginreg{
             VALUES ('$userid', '$defaultabout')";
             $result = mysql_query($secondquery);
             if(!$result) die("point 2, but failed.");
-            //echo "signed up";
          }
         }//end of newuserquery() function
     
