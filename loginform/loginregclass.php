@@ -8,7 +8,7 @@ class userloginreg{
  
      function __construct($username, $password){
         $this->user = $username;
-        $this->pw = "%^&PenBand3721" . $password . "*3721%Arbie^7494" ;
+        $this->pw = "**************" . $password . "****************" ;
         $this->token = sha1($this->pw);
         }//end of construct
         
