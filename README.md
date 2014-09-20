@@ -11,21 +11,21 @@ I can say both goals are coming along nicely.
 Highlights for this blog from a technical standpoint are as follows:
  
  1. Developed a custom login/registration system.
-    - Uses sessions to track user login
-    - database to store user login and new user registration details
-    - Developed in a secure manner of course. Is still being improved as I get better.
+    - [x]Uses sessions to track user login
+    - [x]database to store user login and new user registration details
+    - [x]Developed in a secure manner of course. Is still being improved as I get better.
  2. User profile system
-    - Users are able to go to their profile and edit some info about themselves
-    - Will be updating so that users can view each others profiles.
+    - [x]Users are able to go to their profile and edit some info about themselves
+    - []Will be updating so that users can view each others profiles.
  3. Admin CMS
-    - Only available to myself - with proper login credentials
-    - Currently only allows me to post new blogs.
-    - Will be developing a simple analytics tool that displays traffic.
-    - Will be developing a comment moderation system - once comment system has been developed.
+    - [x]Only available to myself - with proper login credentials
+    - [x]Currently only allows me to post new blogs.
+    - []Will be developing a simple analytics tool that displays traffic.
+    - []Will be developing a comment moderation system - once comment system has been developed.
  4. Comment system
-    - Under development
-    - Users will be able to comment on blog posts.
-    - Comments will be secured for anti spam and security issues, of course.
+    - []Under development
+    - []Users will be able to comment on blog posts.
+    - []Comments will be secured for anti spam and security issues, of course.
  5. Always Refactoring
     - since i'm constantly getting better at writing software, my code is constantly being improved
     - Will be implementing new code in an oop design.
