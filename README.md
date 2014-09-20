@@ -3,8 +3,8 @@ CodingSailor.com-BlogProject
 
 My blog, all code has been developed by myself. This blog is the best showcase of my ability.
 I started developing this blog for two main reasons.
-1. I love to write.
-2. I wanted to get better at writing software.
+ 1. I love to write.
+ 2. I wanted to get better at writing software.
 
 I can say both goals are coming along nicely.
 
