@@ -10,8 +10,7 @@ if(isset($_POST['username']) && isset($_POST['pwd']) && !empty($_POST['username'
     $pass = get_post('pwd');
 	$userlogin = new userloginreg($user,$pass);
     
-	//run this if the the signup button was clicked. If sign in was clicked, skip it.
-	if(isset($_POST['signup']))
+	if(isset($_POST['signup']))//run this if the the signup button was clicked. If sign in was clicked, skip it.
 	{
 		$email = test_email($_POST['email']);
 		if (!$userlogin->dupemail($email)) //class function checks for duplicate email
@@ -23,38 +22,18 @@ if(isset($_POST['username']) && isset($_POST['pwd']) && !empty($_POST['username'
 			else my_die ("duplicate username");
 		}
 		else my_die ("duplicate email");	
-	}
-	
-	//Here we check if the username/password combo exists and if not, send em packing!
-	//If it does, well login.
-		$loginquery = "SELECT * FROM user WHERE username = '$userlogin->user'";
-		$result = mysql_query($loginquery);
-		if(!$result) die("error");
-		
-		elseif (mysql_num_rows($result))
+	}//end of registration process, if chosen
+    
+        if(!$userlogin->getuser)
 		{
-			$row = mysql_fetch_row($result);
-			if($userlogin->token == $row[2])
+			if(!$userlogin->checkpw())
 				{
-					session_start();
-					$id = $row[0];
-					$_SESSION['username'] = $userlogin->user;
-					$_SESSION['password'] = $userlogin->token;
-					$_SESSION['id'] = $id;
-					//echo"login successful";
-					header("Location: http://codingsailor.com");
+                    $userlogin->login();
 				}
 			else die("invalid username/ password combination token");
-		}
-		
+		}//end of login process, which is called no matter what.
 		else die("invalid username/ password combination user");
-	
-	//setcookie('userid', $token, time() + 60 * 60 * 24 * 7, '/' );
-	
-	
-	//$loginquery = "SELECT "
-	
-	
+	//setcookie('userid', $token, time() + 60 * 60 * 24 * 7, '/' );	
 }
 else echo "Please go back and fill in all fields.";
 ?>

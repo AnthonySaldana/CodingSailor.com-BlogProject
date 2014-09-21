@@ -5,6 +5,7 @@ class userloginreg{
  public $token;
  public $email;
  public $datejoined;
+ public $getuserquery;
  
      function __construct($username, $password){
         $this->user = $username;
@@ -12,6 +13,16 @@ class userloginreg{
         $this->token = sha1($this->pw);
         }//end of construct
         
+     private function getuserquery(){ //runs the query to get user
+        $this->getuserquery = "SELECT * FROM user WHERE username = '$this->user'";
+        $result = mysql_query($this->getuserquery);
+        $row = mysql_fetch_row($result);
+        if($row)
+        {
+            return $row;
+        }
+     } // end of getuserquery() function
+     
      public function dupemail($emailinp){ //checks for duplicate email. emailinput is what that stands for.
         $duplicatequery = mysql_query("SELECT 1 FROM user where email = '$emailinp'"); //check for duplicate email
         if (mysql_num_rows($duplicatequery) == 0 )
@@ -39,7 +50,7 @@ class userloginreg{
             $error = true;
             return $error;
          }
-        }
+    }//end of dupuser() function
 
      public function newuserquery(){ //writes and runs the query responsible for setting up the new user.
         $this->datejoined = date('y/m/d');
@@ -70,6 +81,46 @@ class userloginreg{
             $result = mysql_query($secondquery);
             if(!$result) die("point 2, but failed.");
          }
-        }//end of newuserquery() function
+    }//end of newuserquery() function
     
+    public function getuser(){
+		$result = mysql_query($this->getuserquery);
+		if(!$result) 
+        {
+            $error = true;
+            return $error;
+		}
+		elseif (mysql_num_rows($result))
+        {
+            $error = false;
+            return $error;
+        }
+        else{
+            $error = true;
+            return $error;
+        }
+    }//end of getuser() function
+    
+    public function checkpw(){
+        $row = $this->getuserquery();
+		if($this->token == $row[2])
+        {
+            $error = false;
+        }
+        else
+        {
+            $error = true;
+        }return $error;
+    }//end of checkpw() function
+    
+    public function login(){
+        $row = $this->getuserquery();
+        session_start();
+        $id = $row[0];
+        $_SESSION['username'] = $this->user;
+        $_SESSION['password'] = $this->token;
+        $_SESSION['id'] = $id;
+        //echo"login successful";
+        header("Location: http://codingsailor.com");
+    }//end of login() function
 }/*end of class*/?>
