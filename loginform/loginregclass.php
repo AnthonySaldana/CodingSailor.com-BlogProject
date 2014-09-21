@@ -5,11 +5,11 @@ class userloginreg{
  public $token;
  public $email;
  public $datejoined;
- public $getuserquery;
+ private $getuserquery;
  
      function __construct($username, $password){
         $this->user = $username;
-        $this->pw = "**************" . $password . "****************" ;
+        $this->pw = "%^&PenBand3721" . $password . "*3721%Arbie^7494" ;
         $this->token = sha1($this->pw);
         }//end of construct
         
@@ -84,6 +84,7 @@ class userloginreg{
     }//end of newuserquery() function
     
     public function getuser(){
+        $this->getuserquery();
 		$result = mysql_query($this->getuserquery);
 		if(!$result) 
         {
