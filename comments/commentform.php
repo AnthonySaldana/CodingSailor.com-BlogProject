@@ -31,4 +31,10 @@ else
  </div>
 </div>
 <?php
-}?>
+}
+$showcomment = new comments;
+if(!$showcomment->showcomment($postid))
+{
+    echo "failed to retreive comments";
+}
+?>
