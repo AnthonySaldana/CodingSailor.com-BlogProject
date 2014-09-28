@@ -5,14 +5,30 @@ echo<<<profilehtml
 <body>
 	<div class="container">
 		<div class="row" style="margin-top:20px;">
-			<div class="col-md-6">
+			<div class="col-xs-6">
 				<img class="img-circle" alt="Circular Image" src="/images/users/$user->userimg" width="40%"/>
+				<h3>Recent Activity</h3>
+profilehtml;
+				if($_SESSION['username'] == "admin")
+				{
+                                    $user->getrecentposts();
+                                    ?>
+                                    <h4>Posts</h4>
+                                    <ul>
+                                    <li></li>
+                                    </ul>
+                                    <?php
+				}
+echo<<<profilehtml
+				<h4>Comments</h4>
+				<ul>
 				
+				</ul>
 			</div>
 			
-			<div class="col-md-6" style="text-align:right;">
-				<h2>$user->username</h2>
-				<p class="h4">$user->realname</p>
+			<div class="col-xs-6" style="text-align:right;">
+				<h2>Username: $user->username</h2>
+				<p class="h4">Name: $user->realname</p>
 				<p class="h4">Email: $user->useremail</p>
 				<p class="h4">Date Joined: $user->datejoined</p>
 				<p class="h4">Website: $user->userwebsite</p>

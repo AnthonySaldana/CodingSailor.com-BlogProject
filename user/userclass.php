@@ -85,5 +85,18 @@ class user
 				 AND user.id = '$this->userid'";
 		if(!mysql_query($query)) die("didnt work" . mysql_error());
 	}
+        
+        function getrecentposts(){
+            $query = "SELECT title FROM blogpost ORDER BY dateofpost DESC LIMIT 4";
+            $result = mysql_query($query) ? mysql_query($query) : false;
+            if(!result){die("error");}
+            else{
+                while($row = mysql_fetch_array($result, MYSQL_NUM)){
+                    echo "<a href='#'>" . $row[0] . "</a><br/>";
+                }
+                
+                
+            }
+        }
 }
 ?>
