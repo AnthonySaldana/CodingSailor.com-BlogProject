@@ -24,7 +24,7 @@ Highlights for this blog from a technical standpoint are as follows:
     - [ ]Will be developing a comment moderation system - once comment system has been developed.
  4. Comment system
     - [ ]Under development
-    - [ ]Users will be able to comment on blog posts.
+    - [x]Users will be able to comment on blog posts.
     - [ ]Comments will be secured for anti spam and security issues, of course.
  5. Always Refactoring
     - since i'm constantly getting better at writing software, my code is constantly being improved
