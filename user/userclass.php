@@ -100,7 +100,7 @@ class user
         function getmyrecentcomments($id){
             $query = "SELECT comment, title, blogid FROM comments JOIN blogpost on "
                     . "blogpost.id = comments.blogid WHERE comments.userid = '$id' "
-                    . "ORDER BY comments.dateposted DESC";
+                    . "ORDER BY comments.dateposted DESC LIMIT 4";
             $result = mysql_query($query) ? mysql_query($query) : false;
             if(!$result){die("error" . mysql_error());}
             else{
