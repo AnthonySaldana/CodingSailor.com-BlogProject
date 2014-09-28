@@ -11,13 +11,10 @@ echo<<<profilehtml
 profilehtml;
 				if($_SESSION['username'] == "admin")
 				{
+                                    
+                                    echo"<h4>Posts</h4><ul class='list-unstyled'>";//set up ul
                                     $user->getrecentposts();
-                                    ?>
-                                    <h4>Posts</h4>
-                                    <ul>
-                                    <li></li>
-                                    </ul>
-                                    <?php
+                                    echo"</ul>";
 				}
 echo<<<profilehtml
 				<h4>Comments</h4>

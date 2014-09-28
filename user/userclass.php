@@ -87,15 +87,13 @@ class user
 	}
         
         function getrecentposts(){
-            $query = "SELECT title FROM blogpost ORDER BY dateofpost DESC LIMIT 4";
+            $query = "SELECT title, id FROM blogpost ORDER BY dateofpost DESC LIMIT 4";
             $result = mysql_query($query) ? mysql_query($query) : false;
             if(!result){die("error");}
             else{
                 while($row = mysql_fetch_array($result, MYSQL_NUM)){
-                    echo "<a href='#'>" . $row[0] . "</a><br/>";
-                }
-                
-                
+                    echo "<li><a href='http://codingsailor.com/posts/viewpost.php?postid=" . $row[1] . "'>" . $row[0] . "</a></li>";
+                }  
             }
         }
 }
