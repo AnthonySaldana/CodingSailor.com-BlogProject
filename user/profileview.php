@@ -18,8 +18,12 @@ profilehtml;
 				}
 echo<<<profilehtml
 				<h4>Comments</h4>
-				<ul>
-				
+				<ul class='list-unstyled'>
+profilehtml;
+            session_start();
+            $id = $_SESSION['id'];
+            $user->getmyrecentcomments($id);
+echo<<<profilehtml
 				</ul>
 			</div>
 			

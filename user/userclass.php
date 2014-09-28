@@ -96,5 +96,20 @@ class user
                 }  
             }
         }
+        
+        function getmyrecentcomments($id){
+            $query = "SELECT comment, title, blogid FROM comments JOIN blogpost on "
+                    . "blogpost.id = comments.blogid WHERE comments.userid = '$id' "
+                    . "ORDER BY comments.dateposted DESC";
+            $result = mysql_query($query) ? mysql_query($query) : false;
+            if(!$result){die("error" . mysql_error());}
+            else{
+                while($row = mysql_fetch_array($result, MYSQL_NUM)){
+                    $limitcomment = substr($row[0], 0, 100) . "...";
+                    echo"<li><b><a href= 'http://codingsailor.com/posts/viewpost.php?postid=$row[2]'>$row[1]</a></b></li>"
+                            . "<li>$limitcomment</li>";
+                }
+            }
+        }
 }
 ?>
