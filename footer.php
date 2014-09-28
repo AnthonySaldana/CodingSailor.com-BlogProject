@@ -20,17 +20,23 @@ $root = $_SERVER['DOCUMENT_ROOT'];
 	<div class="container" >
 		<center>
 		<div class="row">	
-			<div class="col-md-4 footerlinks">
-				<a href= "/index.php">Home</a></br>
-				<a href="/about.php">About</a></br>
-				<a href="/posts/">Posts</a>
+			<div class="col-md-2 footerlinks h4">
+                            <ul class="list-unstyled">
+                                <li><a class="footerlinka" href= "/index.php">Home</a></li>
+                                <li><a class="footerlinka" href="/about.php">About</a></li>
+                                <li><a class="footerlinka" href="/posts/">Posts</a><br/></li>
+                            </ul>
+                        </div>
+                    
+                        <div class="col-md-2">
+				<a class="footerlinka" href="http://www.portfolio.codingsailor.com"><img src="/images/portlogo.png" width="100%"/><br/>^ My Portfolio ^</a>
 			</div>
 			<div class="col-md-4 defenseleague">
 				<a href="https://internetdefenseleague.org"><img src="https://internetdefenseleague.org/images/badges/final/shield_badge.png" alt="Member of The Internet Defense League"/></a>
 			</div>
 			<div class="col-md-4 footerlinks">
 				<!-- fb like-->
-				<div class="fb-like" data-href="https://www.facebook.com/pages/Coding-Sailor/204306013035081?ref=hl" data-layout="box_count" data-action="like" data-show-faces="true" data-share="true"></div>
+				<div class="fb-like socialbox" data-href="https://www.facebook.com/pages/Coding-Sailor/204306013035081?ref=hl" data-layout="box_count" data-action="like" data-show-faces="true" data-share="true"></div>
 				<!-- end of fb like -->
 				
 				<!-- twitter follow button -->

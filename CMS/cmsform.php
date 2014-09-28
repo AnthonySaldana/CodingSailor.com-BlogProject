@@ -86,7 +86,7 @@ _sqltesthtml;
 		mysql_select_db($db_database, $db_server)
 			or die("unable to select database" . mysql_error());
 			
-		$query="SELECT * FROM blogpost";
+		$query="SELECT * FROM blogpost ORDER BY id DESC";
 		$result = mysql_query($query);
 
 		if(!$result) die("couldnt establish query");
@@ -101,16 +101,16 @@ _sqltesthtml;
 			echo<<<_format
 			<div class='containter'>
 			<div class='row'>
-			<div class='col-md-6'>
+			<div class='col-md-6' style="border-top:2px solid black">
 			<div class='list-group'>
 			
 			<a href='#' class='list-group-item'>
 			<h2 Class='list-group-item-heading'>$row[1] Post Details</h2>
 _format;
+                        $limitpost = substr($row[2],0, 600) . "...";
 			echo<<<_blogpostquery
-			
 				Category: $row[0] </br>
-				$row[2] </br>
+				$limitpost </br>
 				ID: $row[3] </br>
 				Date: $row[4] </br>
 			<!--excuse my half-fast presentation here. -->
@@ -125,7 +125,6 @@ _format;
 			<input type = "hidden" name = "title" value = "$row[1]"/>
 			<input type = "submit" name="edit" value="EDIT"/>
 			</form>
-
 _blogpostquery;
 
 echo<<<_finishformat

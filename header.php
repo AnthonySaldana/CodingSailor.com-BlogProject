@@ -25,11 +25,9 @@ echo<<<_headerhtml
 <div class="container" >
 	
 	<button id="headercontainer" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-	<span class="icon-bar"></span>
-	<span class="icon-bar"></span>
-	<span class="icon-bar"></span>
+	<h4>Menu</h4>
 	</button>
-	<a class="navbar-brand">Coding Sailor</a>
+	<a href="http://www.codingsailor.com" class="navbar-brand" style="padding:0px;"> <img src="/images/newlogo.png" height="70px"/> </a>
 	<div class="collapse navbar-collapse">
 	<ul class="nav navbar-nav navbar-right">
 _headerhtml;
@@ -52,8 +50,8 @@ if(isset($_SESSION['username']))
 	if($username == "admin")
 	{
 		if ($tag == "cms")
-			{ echo "<li class='active'><a href= '../CMS/cmsform.php'>CMS</a></li>"; }
-			else { echo"<li><a href= '../CMS/cmsform.php'>CMS</a></li>"; }
+			{ echo "<li class='active'><a href= '../CMS/cmsform.php'>Admin</a></li>"; }
+			else { echo"<li><a href= '../CMS/cmsform.php'>Admin</a></li>"; }
 	}
 	if ($tag == "user")
 			{ echo "<li class='active'><a href= '../user/index.php'>profile</a></li>"; }
@@ -69,21 +67,39 @@ echo<<<_loginformhtml
 		  <a class="dropdown-toggle" href="#" data-toggle="dropdown">Register <strong class="caret"></strong></a>
           <div class="dropdown-menu" style="min-width:auto; padding: 15px; padding-bottom: 0px;">
 		  <form  id="login" name="login" action="../loginform/processlogin.php" method="POST" />
-		</br>Username: <input type="text" name="username"/>
-		</br>Password: <input type="password" name="pwd"/>
-		</br>Email:<input type="text" name="email" id="emailsec"/>
-		<input type="submit" name="signup" value="register" id="signupbutton"/>
-		</form>
+          <div class="form-group">
+            Username: <input class="form-control" type="text" name="username"/>
+          </div>
+          
+          <div class="form-group">
+            Password: <input class="form-control" type="password" name="pwd"/>
+          </div>
+          
+          <div class="form-group">
+            Email:<input class="form-control" type="text" name="email" id="emailsec"/>
+          </div>
+          
+          <div class="form-group">
+            <button class="btn btn-info" type="submit" name="signup" value="register" id="signupbutton">Register</button>
+          </div>
+        </form>
 		<li class="divider-vertical"></li>
           <li class="dropdown">
           <a class="dropdown-toggle" href="#" data-toggle="dropdown">Login<strong class="caret"></strong></a>
           <div class="dropdown-menu" style="padding: 15px; padding-bottom: 0px;">
               <!-- Login form here -->
 	<form  id="login" name="login" action="../loginform/processlogin.php" method="POST" />
-		</br>Username: <input type="text" name="username"/>
-		</br>Password: <input type="password" name="pwd"/>
-		<input type="submit" name="signin" value="Login" id="signinbutton"/>
-	</form>
+		<div class="form-group">
+            Username: <input class="form-control" type="text" name="username"/>
+		</div>
+        <div class="form-group">
+            Password: <input class="form-control" type="password" name="pwd"/>
+		</div>
+        
+        <div class="form-group">
+            <button type="submit" class="btn btn-info" name="signin" value="Login" id="signinbutton">Sign in</button>
+        </div>
+    </form>
 </div>
 _loginformhtml;
 }
