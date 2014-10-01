@@ -18,66 +18,41 @@ if(isset($_SESSION['username']))
 		if($username == "admin")
 			{
 		echo<<<_sqltesthtml
-		<div class='containter'>
-			<div class='row'>
-			<div class='col-md-6'>
-			<div class='list-group'>
-			
-			<a href='#' class='list-group-item'>
-			<h2 Class='list-group-item-heading'>Post Entry</h2>
-		<form action="mainprocess.php" method="post">
-		<table width = "500px">
-		<tbody>
-			<tr>
-		<!-- fill in category here -->
-				<td>
-				<label for="category"> Category </label>
-				</td>
-				<td>
-				<select name="category">
-				<option name="tech" value="1">Tech</option>
-				<option name="web" value="2">Web</option>
-				<option name="life" value="3">Life</option>
-				<option name="selfdev" value="4">Self Development</option>
-				</td>
-			</tr>
-			
-		<!-- title goes here -->
-			<tr>
-				<td>
-					<label for="title"> Title </label>
-				</td>
-				<td>
-					<input type ="text" name="title" placeholder="title here">
-				</td>
-			</tr>
+<div class="container">
+    <div class="row">
+    <div class="col-md-12">
+    <h2>Post Entry</h2>
+    <form action="mainprocess.php" method="post">
+<!-- fill in category here -->
+    <div class="row">
+    <div class="form-group col-sm-3">
+        <label for="category"> Category </label>
+        <select name="category" class="form-control">
+        <option name="tech" value="1">Tech</option>
+        <option name="web" value="2">Web</option>
+        <option name="life" value="3">Life</option>
+        <option name="selfdev" value="4">Self Development</option>
+        </select>
+    </div>
 
-		<!-- blog content goes into this part of the form -->
-			<tr>
-				<td>
-					<label for="content"> Content </label>
-				</td>
-				<td>
-					<textarea name="content" cols="75" rows="10" placeholder="Blog Post goes here!"></textarea>
-				</td>
-			</tr>
-
-		<!-- submit data -->
-			<tr>
-				<td>
-					<input type="submit" value="submit"/>
-				</td>
-			</tr>
-		</tbody>
-		</table>
-		</form>
-		
-		</a>
-			
-			</div>
-			</div>
-			</div>
-			</div>
+     <div class="form-group col-sm-3">
+        <label for="title"> Title </label>
+        <input class="form-control" type="text" name="title" placeholder="title here">
+     </div>
+    </div>
+<!-- blog content goes into this part of the form -->
+    <div class="row">
+        <div class="form-group col-sm-10">
+            <label for="content"> Content </label>
+            <textarea rows="10" class="form-control" name="content" placeholder="Blog Post goes here!"></textarea>
+        </div>
+    </div>
+<!-- submit data -->
+        <input type="submit" value="submit"/>
+    </form>
+        </div>
+    </div>
+</div>
 _sqltesthtml;
 
 		$db_server = mysql_connect($db_hostname, $db_username, $db_password);
@@ -99,9 +74,9 @@ _sqltesthtml;
 			
 			$row = mysql_fetch_row($result);
 			echo<<<_format
-			<div class='containter'>
+			<div class='container'>
 			<div class='row'>
-			<div class='col-md-6' style="border-top:2px solid black">
+			<div class='col-md-12' style="border-top:2px solid black">
 			<div class='list-group'>
 			
 			<a href='#' class='list-group-item'>
