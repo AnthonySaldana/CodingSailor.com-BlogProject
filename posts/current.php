@@ -1,8 +1,16 @@
 <?php
 $root = $_SERVER['DOCUMENT_ROOT'];
-require_once($root . '/loginform/secure/loginclass.php');//REMINDER, put db connection into its own class!!!!
-	$connect = new logindb(); // connect to db using loginclass
-$latestquery = "SELECT * FROM blogpost ORDER BY id DESC"; //get all the blog posts by descend order.
+require_once($root . '/db/loginclass.php');//REMINDER, put db connection into its own class!!!!
+$connect = new logindb(); // connect to db using loginclass
+$url = 'http://' . $_SERVER['SERVER_NAME'] . $_SERVER['REQUEST_URI'];
+
+
+if (false !== strpos($url,'posts')) {
+    $latestquery = "SELECT * FROM blogpost ORDER BY id DESC";
+} else {
+    $latestquery = "SELECT * FROM blogpost ORDER BY id DESC LIMIT 0,6";
+}
+ //get all the blog posts by descend order.
 $resultcurrent=mysql_query($latestquery); //put query in variable
 if(!$resultcurrent) die("couldnt read posts"); //if it runs move on, if not,  throw error. puts the result into $resultcurrent
 $rows=mysql_num_rows($resultcurrent); // assign the NUMBER of rows the $rows variable
