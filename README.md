@@ -16,20 +16,12 @@ Highlights for this blog from a technical standpoint are as follows:
     - [x]Developed in a secure manner of course. Is still being improved as I get better.
  2. User profile system
     - [x]Users are able to go to their profile and edit some info about themselves
-    - [ ]Will be updating so that users can view each others profiles.
+    - [x ]Will be updating so that users can view each others profiles.
  3. Admin CMS
     - [x]Only available to myself - with proper login credentials
     - [x]Currently only allows me to post new blogs.
-    - [ ]Will be developing a simple analytics tool that displays traffic.
-    - [ ]Will be developing a comment moderation system - once comment system has been developed.
  4. Comment system
-    - [ ]Under development
     - [x]Users will be able to comment on blog posts.
-    - [ ]Comments will be secured for anti spam and security issues, of course.
- 5. Always Refactoring
-    - since i'm constantly getting better at writing software, my code is constantly being improved
-    - Will be implementing new code in an oop design.
-    - Will be refactoring old code to an oop design.
+    - [x]Built on Discuss
     
-This project is mostly to develop my skills. But I do plan on releasing many of these features as an open source project.
-Not sure if it will be a full cms, the future holds many questions.
+This project is mostly to develop my skills.
